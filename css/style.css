@@ -19,6 +19,7 @@ canvas,
 video {
   display: inline-block;
 }
+
 .scrollup{
     width:100px;
     height:90px;
@@ -590,7 +591,10 @@ hr {
 .pi-scroll-top-arrow:after {
   content: '\e8c5';
 }
-
+.pi-scroll-top-arrow.pi-active {
+  bottom: 90px;
+  opacity: 1;
+}
 .pi-scroll-top-arrow.pi-active.pi-scroll-top-arrow-footer {
   bottom: 80px;
 }
@@ -4237,7 +4241,7 @@ h3,
 }
 h4,
 .h4 {
-  font-size: 20px;
+  font-size: 28px;
   line-height: 1.3em;
   margin-bottom: 10px;
   letter-spacing: 0;

@@ -18,7 +18,7 @@
 	<link rel="stylesheet" type="text/css" href="css/alert-boxes.css"/>
 	<link rel="stylesheet" type="text/css" href="css/animations.css"/>
 	<link rel="stylesheet" type="text/css" href="3dParty/colorbox/colorbox.css"/>
-	
+	<link href="css/bootstrap.css" rel="stylesheet">
 
 	<!--Fonts-->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,100,300,600,700,800&amp;subset=latin,cyrillic'
@@ -466,9 +466,9 @@
 	<div class="pi-texture" style="background: url() repeat;"></div>
 	<div class="pi-section pi-padding-top-60 pi-padding-bottom-40">
 		
-		<h2 class="pi-weight-300 pi-text-center">
-			<span class="pi-text-base pi-weight-600 pi-tooltip pi-tooltip-base"> OLAGED</span> Observatorio Latinoamericano de Gestión y Desarrollo
-		</h2>
+		<h4 class="pi-weight-300 pi-text-center">
+			<span class="pi-text-base pi-weight-600 pi-tooltip pi-tooltip-base"> OLAGED</span>  Observatorio Latinoamericano de Gestión y Desarrollo
+		</h4>
 		
 		<p class="lead-16 pi-text-center">
 			<center><h4>Nam libero tempore, cum <span class="pi-text-base pi-weight-600 pi-tooltip pi-tooltip-base" data-placement="top" title="" data-original-title="Dolor sit amet consec tetur adipi sicing elit">soluta nobis</span> est eligendi optio  <span class="pi-text-base pi-weight-600 pi-tooltip pi-tooltip-base" data-placement="top" title="" data-original-title="Deleniti quos dolores et quas molestias">cumque nihil</span>impedit quo minus id quod maxime placeat facere possimus, omnis voluptas...<span class="pi-text-base pi-weight-600 pi-tooltip pi-tooltip-base" data-placement="top" title="" data-original-title="Deleniti quos dolores et quas molestias">Learm more</span></h4></center>
@@ -991,7 +991,7 @@
 <!-- End copyright area -->
 <!-- End footer -->
     	
-<a href="#" class="pi-scroll-top-arrow pi-active scrollup">Scroll</a>
+<a href="#" class="pi-scroll-top-arrow pi-active "> </a>
 </div>
 
 
@@ -1040,13 +1040,13 @@
   
         $(window).scroll(function(){
             if ($(this).scrollTop() > 100) {
-                $('.scrollup').fadeIn();
+                $('.pi-scroll-top-arrow').fadeIn();
             } else {
-                $('.scrollup').fadeOut();
+                $('.pi-scroll-top-arrow').fadeOut();
             }
         });
   
-        $('.scrollup').click(function(){
+        $('.pi-scroll-top-arrow').click(function(){
             $("html, body").animate({ scrollTop: 0 }, 600);
             return false;
         });
