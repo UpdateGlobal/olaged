@@ -375,7 +375,7 @@ hr {
 }
 .pi-padding-bottom-40,
 .pi-padding-top-bottom-40 {
-  padding-bottom: 40px !important;
+  padding-bottom: 60px !important;
 }
 .pi-padding-bottom-50,
 .pi-padding-top-bottom-50 {
@@ -617,8 +617,8 @@ hr {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 .pi-scroll-top-arrow:hover {
-  border-color: rgba(96, 157, 219, 0.8);
-  background: rgba(96, 157, 219, 0.8);
+  border-color: rgba(18, 188, 255, 0.8);
+  background: rgba(18, 188, 255, 0.8);
   color: #ffffff;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -5457,7 +5457,8 @@ pre code {
   color: #12BCFF;
 }
 .pi-section-dark a:hover {
-  color: #487ab9;
+  color: #fff;
+  text-decoration: none;
 }
 .pi-section-dark a.pi-link-dark {
   color: #ffffff;

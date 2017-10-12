@@ -1616,7 +1616,7 @@
 <!-- End footer -->
 
 </div>
-<div class="pi-scroll-top-arrow" data-scroll-to="0"></div>
+<a href="#" class="pi-scroll-top-arrow pi-active "> </a>
 
 <script src="3dParty/jquery-1.11.0.min.js"></script>
 <script src="scripts/pi.easings.js"></script>
@@ -1655,6 +1655,23 @@
 <script src="3dParty/tweetie/tweetie.min.js"></script>
 <script src="scripts/pi.init.tweetie.js"></script>
 
-
+<script type="text/javascript">
+    $(document).ready(function(){
+  
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.pi-scroll-top-arrow').fadeIn();
+            } else {
+                $('.pi-scroll-top-arrow').fadeOut();
+            }
+        });
+  
+        $('.pi-scroll-top-arrow').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+  
+    });
+</script>
 </body>
 </html>
