@@ -97,7 +97,7 @@
 <li class="pi active "><a href=""><span>Nosotros</span></a>
 			
 </li>
-<li class="pi-has-dropdown  "><a href="#"><span>Servicios</span></a>
+<li class="pi-has-dropdown  "><a href="#servicios"><span>Servicios</span></a>
 	<ul class="pi-submenu pi-has-border pi-items-have-borders pi-has-shadow pi-submenu-dark">
 		
 		
@@ -126,7 +126,7 @@
 	</ul>
 		
 </li>
-<li class="pi"><a href="#anchor-about"><span>Actividades</span></a></li>
+<li class="pi"><a href="#actividades"><span>Actividades</span></a></li>
 <li class="pi"><a href=""><span>Noticias</span></a>
 	
 </li>
@@ -152,7 +152,7 @@
 			<ul class="pi-menu-mobile pi-items-have-borders pi-menu-mobile-dark">
 				<li class="active"><a href="nosotros.html.html"><span>Nosotros</span></a>
 				</li>
-				<li class=""><a href="#"><span>Servicios</span></a>
+				<li class=""><a href="#servicios"><span>Servicios</span></a>
 				<ul>
 					<li><a href="servicio-de-investigacion.html"><span>Servicios de Investigación</span></a>
 					<ul>
@@ -170,7 +170,7 @@
 					</li>
 				</ul>
 			</li>
-				<li class=""><a href="#anchor-about"><span>Actividades</span></a>
+				<li class=""><a href="#actividades"><span>Actividades</span></a>
 				
 			</li>
 				<li class=""><a href="blog.html"><span>Noticias</span></a>
@@ -471,7 +471,7 @@
 		</h4>
 		
 		<p class="lead-16 pi-text-center">
-			<center><h5>Nam libero tempore, cum <span class="pi-text-base pi-weight-600 pi-tooltip pi-tooltip-base" data-placement="top" title="" data-original-title="Dolor sit amet consec tetur adipi sicing elit">soluta nobis</span> est eligendi optio  <span class="pi-text-base pi-weight-600 pi-tooltip pi-tooltip-base" data-placement="top" title="" data-original-title="Deleniti quos dolores et quas molestias">cumque nihil</span> impedit quo minus id quod maxime placeat facere possimus, omnis voluptas...<span class="pi-text-base pi-weight-600 pi-tooltip pi-tooltip-base" data-placement="top" title="" data-original-title="Deleniti quos dolores et quas molestias">Learm more</span></h5></center>
+			<center><h5>El objeto de la asociación es<span class="pi-text-base pi-weight-600 pi-tooltip pi-tooltip-base" data-placement="top" title>spromover la investigación; análisis, estudio y promoción de políticas públicas en el Perú y América Latina,</span> así como difundir el conocimiento en administración y gestión en general; y, especialmente desarrollar de capacidades para las personas que forman parte de la gestión pública o que desarrollen políticas públicas.</h5></center>
 		</p>
 
 	</div>
@@ -480,7 +480,7 @@
 
 <!-- - - - - - - - - - SECTION - - - - - - - - - -->
 
-<div class="pi-section-w pi-shadow-inside-top pi-section-dark piCounter pi-row pi-liquid-col-xs-1 pi-liquid-col-sm-4 pi-gallery pi-gallery-small-margins isotope servicios">
+<div id="servicios" class="pi-section-w pi-shadow-inside-top pi-section-dark piCounter pi-row pi-liquid-col-xs-1 pi-liquid-col-sm-4 pi-gallery pi-gallery-small-margins isotope servicios">
 	<div class="pi-section pi-padding-bottom-30">
 		
 		<div class="pi-text-center">
@@ -490,7 +490,7 @@
 		</div>
 		
 		<p class="lead-16 pi-margin-bottom-40 pi-text-center pi-text-grey">
-			Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quo minus id quod maxime<br> placeat facere possimus, omnis voluptas.. Learm more 
+			Los servicios que ofrecemos buscan perfeccionar la visión de largo alcance de nuestros clientes, promoviendo la apertura  <br> al cambio y la innovación, facilitando la creación e implementación de soluciones a problemas complejos que pueden estar enfrentando. 
 		</p>
 		
 		<!-- Portfolio gallery -->
@@ -594,7 +594,7 @@
 
 <!-- - - - - - - - - - SECTION - - - - - - - - - -->
 
-<div id="anchor-about" class="pi-section-w pi-section-white adelanto">
+<div id="actividades" class="pi-section-w pi-section-white adelanto">
 	<div class="pi-section pi-padding-top-90 pi-padding-bottom-30">
 		
 		
@@ -1036,7 +1036,7 @@
 <script>
 	$(function(){
 
-     $('a[href="#anchor-about"]').click(function() {
+     $('a[href*=#]').click(function() {
 
      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
          && location.hostname == this.hostname) {
