@@ -84,7 +84,7 @@
 
 <!-- Logo -->
 <div class="pi-header-block pi-header-block-logo">
-	<a href="index.html"><img src="images/logo.svg" alt=""></a>
+	<a href="index.php"><img src="images/logo.svg" alt=""></a>
 </div>
 <!-- End logo -->
 
@@ -93,48 +93,7 @@
 <!-- End text -->
 
 <!-- Menu -->
-<div class="pi-header-block pi-pull-right">
-<ul class="pi-simple-menu pi-has-hover-border pi-full-height pi-hidden-sm">
-<li class="pi active "><a href="nosotros.html"><span>Nosotros</span></a>
-			
-</li>
-<li class="pi-has-dropdown  "><a href="#"><span>Servicios</span></a>
-	<ul class="pi-submenu pi-has-border pi-items-have-borders pi-has-shadow pi-submenu-dark">
-		
-		
-		<li class="pi" ><a href="servicio-de-investigacion.html"><span>Servicio de Investigación</span></a>
-		<!-- <ul class="pi-submenu">
-			<li><a href="headers-headers-light.html"><span>Headers Light</span></a></li>
-			<li><a href="headers-headers-dark.html"><span>Headers Dark</span></a></li>
-			<li><a href="headers-headers-base.html"><span>Headers Base</span></a></li>
-			
-		</ul> -->
-		</li>
-		
-		
-		<li class="pi" ><a href="gestion.html"><span>Gestión</span></a>
-
-		</li>
-		
-		
-		<li class="pi" ><a href="capacitacion.html"><span>Capacitación</span></a>
-
-		</li>
-		
-		
-		<li><a href="desarrolloPersonas.html"><span>Desarrollo de Personas</span></a></li>
-		
-	</ul>
-		
-</li>
-<li class="pi"><a href="#anchor-about"><span>Actividades</span></a></li>
-<li class="pi"><a href="blog.html"><span>Noticias</span></a>
-	
-</li>
-<li class="pi"><a href="contacto.html"><span>Contacto</span></a></li>
-
-</ul>
-</div>
+<?php include("include/navegacion.php"); ?>
 <!-- End menu -->
 
 <!-- Mobile menu button -->
@@ -147,42 +106,7 @@
 
 
 	<!-- Mobile menu -->
-	<div id="pi-main-mobile-menu" class="pi-section-menu-mobile-w pi-section-dark">
-		<div class="pi-section-menu-mobile">
-
-			<ul class="pi-menu-mobile pi-items-have-borders pi-menu-mobile-dark">
-				<li class="active"><a href="nosotros.html.html"><span>Nosotros</span></a>
-				</li>
-				<li class=""><a href="#"><span>Servicios</span></a>
-				<ul>
-					<li><a href="servicio-de-investigacion.html"><span>Servicios de Investigación</span></a>
-					<ul>
-						<!-- <li><a href="headers-headers-light.html"><span>Headers Light</span></a></li>
-						<li><a href="headers-headers-dark.html"><span>Headers Dark</span></a></li>
-						<li><a href="headers-headers-base.html"><span>Headers Base</span></a></li> -->
-						
-					</ul>
-					</li>
-					<li><a href="gestion.html"><span>Gestión</span></a>
-					<ul>
-						<li><a href="capacitacion.html"><span>Capacitación</span></a></li>
-						<li><a href="desarrolloPersonas.html"><span>Desarrollo de Personas</span></a></li>
-					</ul>
-					</li>
-				</ul>
-			</li>
-				<li class=""><a href="#anchor-about"><span>Actividades</span></a>
-				
-			</li>
-				<li class=""><a href="blog.html"><span>Noticias</span></a>
-			</li>
-				<li class=""><a href="contacto.html"><span>Contacto</span></a>
-			</li>
-				
-			</ul>
-
-		</div>
-	</div>
+	<?php include("include/navemovil.php");?>
 	<!-- End mobile menu -->
 
 </div>
@@ -199,11 +123,11 @@
 <div class="pi-section-w pi-shadow-inside-top pi-section-parallax" style="background-image: url(img_external/gallery/team-smiling.jpg);">
 	<div class="pi-texture" style="background: rgba(24, 28, 32, 0.8);"></div>
 	<div class="pi-section pi-section-md pi-titlebar pi-titlebar-breadcrumb-right">
-		<h1>GESTION</h1>
+		<h1>DESARROLLO DE PERSONAS</h1>
 
 		<div class="pi-breadcrumb">
 			<ul>
-				<li><a href="index.html">INICIO</a></li>
+				<li><a href="index.php">INICIO</a></li>
 				<li>acerca de</li>
 			</ul>
 		</div>
@@ -220,19 +144,20 @@
 
 			<div class="pi-col-sm-6 pi-padding-bottom-50">
 
-				<span class="pi-text-base1 pi-weight-600 pi-tooltip pi-tooltip-base">PROMOVEMOS LA GESTION</span> 
+				<span class="pi-text-base1 pi-weight-600 pi-tooltip pi-tooltip-base">PROMOVEMOS EL DESARROLLO DE LAS PERSONAS</span> 
 
 				<p class="pi-margin-bottom-30">
-					Fomentamos y acompañamos el proceso de implementación
+					El desarrollo personal es una parte sustancial para cualquier organización, por eso:
 				</p>
 				
 				<div class="pi-row">
 					<div class="pi-col-sm-6">
 						<ul class="pi-list-with-icons pi-list-icons-ok">
-							<li>Gestionando el cambio desde el punto de vista de las personas involucradas</li>
-							<li>Las necesidades de implementación técnica (sistemas, procesos, informática).</li>
-							<li>Enfocada en solucionar los problemas del ciudadano.</li>
-							<li>Gestionamos los procesos de implementación de cambios y medimos los resultados para incorporar mejoras permanentes.</li>
+							<li>Promovemos actividades de formación que contribuyan al desarrollo personal </li>
+							<li>De los funcionarios públicos y  del sector privado que interactúa de manera .</li>
+							<li>Directa con el Estado, con la finalidad de promover personas que estén dispuestas</li>
+							<li>A contribuir al desarrollo del país, desde una perspectiva ética, responsable y comprometida con la sociedad.
+.</li>
 						</ul>
 					</div>
 

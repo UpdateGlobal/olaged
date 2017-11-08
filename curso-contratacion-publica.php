@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-	<title>Titlebars - Big Breadcrumb Right</title>
+	<title>Curso de Contratacion-Pública</title>
 
 	<link rel="shortcut icon" href="images/favicon.ico">
 
@@ -13,7 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="css/animations.css"/>
 	<link rel="stylesheet" type="text/css" href="3dParty/colorbox/colorbox.css"/>
 	<link href="css/bootstrap.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="css1/main.css">
 	<!--Fonts-->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;subset=latin,cyrillic'
 		  rel='stylesheet' type='text/css'>
@@ -84,7 +84,7 @@
 
 <!-- Logo -->
 <div class="pi-header-block pi-header-block-logo">
-	<a href="index.html"><img src="images/logo.svg" alt=""></a>
+	<a href="index.php"><img src="images/logo.svg" alt=""></a>
 </div>
 <!-- End logo -->
 
@@ -93,48 +93,7 @@
 <!-- End text -->
 
 <!-- Menu -->
-<div class="pi-header-block pi-pull-right">
-<ul class="pi-simple-menu pi-has-hover-border pi-full-height pi-hidden-sm">
-<li class="pi active "><a href="nosotros.html"><span>Nosotros</span></a>
-			
-</li>
-<li class="pi-has-dropdown  "><a href="#"><span>Servicios</span></a>
-	<ul class="pi-submenu pi-has-border pi-items-have-borders pi-has-shadow pi-submenu-dark">
-		
-		
-		<li class="pi" ><a href="servicio-de-investigacion.html"><span>Servicio de Investigación</span></a>
-		<!-- <ul class="pi-submenu">
-			<li><a href="headers-headers-light.html"><span>Headers Light</span></a></li>
-			<li><a href="headers-headers-dark.html"><span>Headers Dark</span></a></li>
-			<li><a href="headers-headers-base.html"><span>Headers Base</span></a></li>
-			
-		</ul> -->
-		</li>
-		
-		
-		<li class="pi" ><a href="gestion.html"><span>Gestión</span></a>
-
-		</li>
-		
-		
-		<li class="pi" ><a href="capacitacion.html"><span>Capacitación</span></a>
-
-		</li>
-		
-		
-		<li><a href="desarrolloPersonas.html"><span>Desarrollo de Personas</span></a></li>
-		
-	</ul>
-		
-</li>
-<li class="pi"><a href="#anchor-about"><span>Actividades</span></a></li>
-<li class="pi"><a href="blog.html"><span>Noticias</span></a>
-	
-</li>
-<li class="pi"><a href="contacto.html"><span>Contacto</span></a></li>
-
-</ul>
-</div>
+<?php include("include/navegacion.php"); ?>
 <!-- End menu -->
 
 <!-- Mobile menu button -->
@@ -147,42 +106,7 @@
 
 
 	<!-- Mobile menu -->
-	<div id="pi-main-mobile-menu" class="pi-section-menu-mobile-w pi-section-dark">
-		<div class="pi-section-menu-mobile">
-
-			<ul class="pi-menu-mobile pi-items-have-borders pi-menu-mobile-dark">
-				<li class="active"><a href="nosotros.html.html"><span>Nosotros</span></a>
-				</li>
-				<li class=""><a href="#"><span>Servicios</span></a>
-				<ul>
-					<li><a href="servicio-de-investigacion.html"><span>Servicios de Investigación</span></a>
-					<ul>
-						<!-- <li><a href="headers-headers-light.html"><span>Headers Light</span></a></li>
-						<li><a href="headers-headers-dark.html"><span>Headers Dark</span></a></li>
-						<li><a href="headers-headers-base.html"><span>Headers Base</span></a></li> -->
-						
-					</ul>
-					</li>
-					<li><a href="gestion.html"><span>Gestión</span></a>
-					<ul>
-						<li><a href="capacitacion.html"><span>Capacitación</span></a></li>
-						<li><a href="desarrollo-de.personas.html"><span>Desarrollo de Personas</span></a></li>
-					</ul>
-					</li>
-				</ul>
-			</li>
-				<li class=""><a href="#anchor-about"><span>Actividades</span></a>
-				
-			</li>
-				<li class=""><a href="blog.html"><span>Noticias</span></a>
-			</li>
-				<li class=""><a href="contacto.html"><span>Contacto</span></a>
-			</li>
-				
-			</ul>
-
-		</div>
-	</div>
+<?php include("include/navemovil.php");?>
 	<!-- End mobile menu -->
 
 </div>
@@ -199,11 +123,11 @@
 <div class="pi-section-w pi-shadow-inside-top pi-section-parallax" style="background-image: url(img_external/gallery/team-smiling.jpg);">
 	<div class="pi-texture" style="background: rgba(24, 28, 32, 0.8);"></div>
 	<div class="pi-section pi-section-md pi-titlebar pi-titlebar-breadcrumb-right">
-		<h1>DESARROLLO DE PERSONAS</h1>
+		<h1>CURSO DE CONTRATACIÓN PÚBLICA</h1>
 
 		<div class="pi-breadcrumb">
 			<ul>
-				<li><a href="index.html">INICIO</a></li>
+				<li><a href="index.php">INICIO</a></li>
 				<li>acerca de</li>
 			</ul>
 		</div>
@@ -214,70 +138,123 @@
 <!-- - - - - - - - - - SECTION - - - - - - - - - -->
   <div id="anchor-about" class="pi-section-w pi-section-white adelanto">
 	<div class="pi-section pi-padding-top-90 pi-padding-bottom-30">
-		
-		
-		<div class="pi-row">
+		<h5 class="pi-has-border pi-has-tall-border pi-has-base-border">
+			PROGRAMA
+		</h5>
+<p>PRIMER DIA: SABADO 11 DE NOVIEMBRE  (9:00 am – 1:00 pm)
+	<ul class="pi-list-with-icons pi-list-icons-minus">
+					<li>Expositora: Dra. María Elena Lazo</li>
+Ex Vocal del Tribunal de Contrataciones del Estado, Jefa de Asesoría Jurídica de SERNANP</p>
 
-			<div class="pi-col-sm-6 pi-padding-bottom-50">
-
-				<span class="pi-text-base1 pi-weight-600 pi-tooltip pi-tooltip-base">PROMOVEMOS EL DESARROLLO DE LAS PERSONAS</span> 
-
-				<p class="pi-margin-bottom-30">
-					El desarrollo personal es una parte sustancial para cualquier organización, por eso:
-				</p>
-				
-				<div class="pi-row">
+<p><strong>ASPECTOS GENERALES EN LAS CONTRATACIONES PÚBLICAS</strong>
+<li>Marco legal y principios que rigen las Contrataciones Públicas.</li>
+<li>Proveedores: </li>
+  <div class="pi-row">
 					<div class="pi-col-sm-6">
 						<ul class="pi-list-with-icons pi-list-icons-ok">
-							<li>Promovemos actividades de formación que contribuyan al desarrollo personal </li>
-							<li>De los funcionarios públicos y  del sector privado que interactúa de manera .</li>
-							<li>Directa con el Estado, con la finalidad de promover personas que estén dispuestas</li>
-							<li>A contribuir al desarrollo del país, desde una perspectiva ética, responsable y comprometida con la sociedad.
-.</li>
+							<li class="is">Registro de proveedores</li>
+							<li class="is">Impedimentos para contratar</li>
+							<li class="is">Sanciones</li>
 						</ul>
 					</div>
 
 				</div>
-				<p class="pi">
-			      <a href="#" class="btn pi-btn-base">
-				       Más Info
-			      </a>
-		</p>
-			</div>
+  
 
-			<div class="pi-col-sm-6 pi-padding-bottom-50">
+<strong>FASE DE PROGRAMACIÓN Y ACTOS PREPARATORIOS</strong>
+<li>Plan Anual</li>
+   <div class="pi-row">
+					<div class="pi-col-sm-6">
+						<ul class="pi-list-with-icons pi-list-icons-ok">
+							<li class="is">Formulación</li>
+							<li class="is">Aprobación</li>
+							<li class="is">Publicidad</li>
+							<li class="is">Modificación</li>
+						</ul>
+					</div>
 
-			   <a href="#"><img src="img/proyectos.png" alt=""/></a>
+				</div>
+       
+<li>Expediente de contratación y su contenido mínimo.</li>
+<li>Órganos a cargo de las Contrataciones del Estado.</li>
+<li>Elaboración y contenido de los documentos del procedimiento de selección.</li>
+   <div class="pi-row">
+					<div class="pi-col-sm-6">
+						<ul class="pi-list-with-icons pi-list-icons-ok">
+							<li class="is">Bases</li>
+							<li class="is">Solicitudes de expresiones de interés</li>
+							<li class="is">Solicitud de cotizaciones</li>
+						</ul>
+					</div>
 
-			</div>
+				</div>
+     
 
-		</div>
-		
+<p><strong>SEGUNDOD DÍA: SABADO 18 DE NOVIEMBRE (9:00 am – 1:00 pm)</strong><br>
+<p>Expositor: Dr. Héctor Inga Huamán</p>
+Ex Presidente del Tribunal de Contrataciones del Estado, Vocal del Tribunal de Contrataciones.
+FASE DE SELECCIÓN
+<li>Métodos de contratación</li>
+<li>Procedimientos de selección</li>
+<div class="pi-row">
+					<div class="pi-col-sm-6">
+						<ul class="pi-list-with-icons pi-list-icons-ok">
+							<li class="is">Licitación Pública</li>
+							<li class="is">Concurso Público</li>
+							<li class="is">Adjudicación Simplificada.</li>
+							<li class="is">Selección de Consultores individuales.</li>
+							<li class="is">Comparación de Precios.</li>
+							<li class="is">Subasta Inversa Electrónica.</li>
+						</ul>
+					</div>
+
+				</div>
+          
+<li>Etapas de los procedimientos</li>
+<div class="pi-row">
+					<div class="pi-col-sm-6">
+						<ul class="pi-list-with-icons pi-list-icons-ok">
+							<li class="is">Evaluación de propuestas</li>
+							<li class="is">Calificación y subsanación de propuestas.</li>
+							<li class="is">Rechazo de ofertas.</li>
+						
+						</ul>
+					</div>
+
+				</div>
+         
+<li>Catálogo electrónico de Acuerdos Marco.</li>
+<li>Contratación Directa.</li></p>
+
+<p><strong>TERCERA FECHA: 25 DE NOVIEMBRE (9:00 am – 1:00 pm)</strong></p>
+<p>Expositor: Dr. Yvan Dulanto, abogado experto en compras estatales
+<p><strong>EJECUCION CONTRACTUAL</strong></p>
+<li>Perfeccionamiento</li>
+<li>Requisitos: Alcance de las garantías de fiel cumplimiento y de adelantos según la nueva normativa.</li>
+<li>Modificación del contrato para mantener el equilibrio económico financiero.</li>
+<li>Incumplimiento de contrato.</li>
+<li>Conformidad.</li>
+<li>Penalidad.</li>
+<li>Pagos.</li>
+<li>Contratos complementarios.</li>
+<strong>SOLUCION DE CONTROVERSIAS</strong>
+<li>Apelación</li>
+<li>Arbitraje</li></p><br><br></ul>
+<h5 class="pi-has-border pi-has-tall-border pi-has-base-border">
+			MATERIALES COMPLEMENTARIOS
+		</h5>
+<ul class="pi-list-with-icons pi-list-icons-plus">
+		<li><a href="https://drive.google.com/file/d/1BD3-REkq65ILUAPUbH9OFLo7IrdTWNGH/view">MATERIAL 1</a></li>
+		<li><a href="https://drive.google.com/open?id=1AFVKL2FQ8v9MiENWRJVJ0RcvEJnJ8_wm">MATERIAL 2</a></li>
+	</ul>
 	</div>
-</div>
+	
+</div><br><br>
+
 <!-- - - - - - - - - - END SECTION - - - - - - - - - -->
 
 </div>
-<div class="pi-section-w pi-shadow-inside-top pi-section-dark2 piTooltips">
-	<div class="pi-texture" style="background: url() repeat;"></div>
-	<div class="pi-section pi-padding-top-60 pi-padding-bottom-40">
-		
-		<h1 class="pi-weight-300 pi-text-center">
-			Nam Libero Tempore Cum Soluta Nobis Eligendi 
-		</h1>
-		
-		<p class="lead-16 pi-text-center">
-			At vero eos et accusamus et iusto <span class="pi-text-base pi-weight-600 pi-tooltip pi-tooltip-base" data-placement="top" title="" data-original-title="Dolor sit amet consec tetur adipi sicing elit">+46,000 dignissimos</span> ducimus qui blanditiis praesentium voluptatum deleniti quos <br>dolores et quas molestias <span class="pi-text-base pi-weight-600 pi-tooltip pi-tooltip-base" data-placement="top" title="" data-original-title="Deleniti quos dolores et quas molestias">excepturi</span>.
-		</p>
 
-		<p class="pi-text-center">
-			<a href="#" class="btn pi-btn-base">
-				Más Info
-			</a>
-		</p>
-
-	</div>
-</div>
 <!-- Footer -->
 <!-- Widget area -->
 <div class="pi-section-w pi-border-bottom pi-border-top-light pi-section-dark footer">

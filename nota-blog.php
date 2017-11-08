@@ -3,17 +3,20 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-	<title>Blog Small image</title>
+	<title>Blog Single Post</title>
 
 	<link rel="shortcut icon" href="images/favicon.ico">
 
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	<link rel="stylesheet" type="text/css" href="css/loader.css"/>
-	<link rel="stylesheet" type="text/css" href="css/images.css"/>
-	<link rel="stylesheet" type="text/css" href="css/galleries.css"/>
-	<link rel="stylesheet" type="text/css" href="css/portfolio.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slider.css"/>
 	<link rel="stylesheet" type="text/css" href="css/testimonials.css"/>
 	<link rel="stylesheet" type="text/css" href="css/page-nav.css"/>
+	<link rel="stylesheet" type="text/css" href="css/comments.css"/>
+	<link rel="stylesheet" type="text/css" href="css/galleries.css"/>
+	<link rel="stylesheet" type="text/css" href="css/boxes.css"/>
+	<link rel="stylesheet" type="text/css" href="css/images.css"/>
+	<link rel="stylesheet" type="text/css" href="css/portfolio.css"/>
 	<link rel="stylesheet" type="text/css" href="css/alert-boxes.css"/>
 	<link rel="stylesheet" type="text/css" href="css/animations.css"/>
 	<link rel="stylesheet" type="text/css" href="3dParty/colorbox/colorbox.css"/>
@@ -74,14 +77,6 @@
 	</div>
 </div>
 <!-- End header row -->
-
-<!-- Header -->
-<div class="pi-main-header-w">
-
-<!-- Header row -->
-
-<!-- End header row -->
-
 <div class="pi-header-row-sticky-w">
 <!-- Header row -->
 <div class="pi-section-w pi-section-header-w pi-section-white pi-section-header-lg-w pi-header-row-sticky pi-shadow-bottom">
@@ -89,7 +84,7 @@
 
 <!-- Logo -->
 <div class="pi-header-block pi-header-block-logo">
-	<a href="index.html"><img src="images/logo.svg" alt=""></a>
+	<a href="index.php"><img src="images/logo.svg" alt=""></a>
 </div>
 <!-- End logo -->
 
@@ -98,48 +93,7 @@
 <!-- End text -->
 
 <!-- Menu -->
-<div class="pi-header-block pi-pull-right">
-<ul class="pi-simple-menu pi-has-hover-border pi-full-height pi-hidden-sm">
-<li class="pi active "><a href="nosotros.html"><span>Nosotros</span></a>
-			
-</li>
-<li class="pi-has-dropdown  "><a href="#"><span>Servicios</span></a>
-	<ul class="pi-submenu pi-has-border pi-items-have-borders pi-has-shadow pi-submenu-dark">
-		
-		
-		<li class="pi" ><a href="servicio-de-investigacion.html"><span>Servicio de Investigación</span></a>
-		<!-- <ul class="pi-submenu">
-			<li><a href="headers-headers-light.html"><span>Headers Light</span></a></li>
-			<li><a href="headers-headers-dark.html"><span>Headers Dark</span></a></li>
-			<li><a href="headers-headers-base.html"><span>Headers Base</span></a></li>
-			
-		</ul> -->
-		</li>
-		
-		
-		<li class="pi" ><a href="gestion.html"><span>Gestión</span></a>
-
-		</li>
-		
-		
-		<li class="pi" ><a href="capacitacion.html"><span>Capacitación</span></a>
-
-		</li>
-		
-		
-		<li><a href="desarrolloPersonas.html"><span>Desarrollo de Personas</span></a></li>
-		
-	</ul>
-		
-</li>
-<li class="pi"><a href="#anchor-about"><span>Actividades</span></a></li>
-<li class="pi"><a href="blog.html"><span>Noticias</span></a>
-	
-</li>
-<li class="pi"><a href="contacto.html"><span>Contacto</span></a></li>
-
-</ul>
-</div>
+<?php include("include/navegacion.php"); ?>
 <!-- End menu -->
 
 <!-- Mobile menu button -->
@@ -152,49 +106,12 @@
 
 
 	<!-- Mobile menu -->
-	<div id="pi-main-mobile-menu" class="pi-section-menu-mobile-w pi-section-dark">
-		<div class="pi-section-menu-mobile">
-
-			<ul class="pi-menu-mobile pi-items-have-borders pi-menu-mobile-dark">
-				<li class="active"><a href="nosotros.html.html"><span>Nosotros</span></a>
-				</li>
-				<li class=""><a href="#"><span>Servicios</span></a>
-				<ul>
-					<li><a href="servicio-de-investigacion.html"><span>Servicios de Investigación</span></a>
-					<ul>
-						<!-- <li><a href="headers-headers-light.html"><span>Headers Light</span></a></li>
-						<li><a href="headers-headers-dark.html"><span>Headers Dark</span></a></li>
-						<li><a href="headers-headers-base.html"><span>Headers Base</span></a></li> -->
-						
-					</ul>
-					</li>
-					<li><a href="gestion.html"><span>Gestión</span></a>
-					<ul>
-						<li><a href="capacitacion.html"><span>Capacitación</span></a></li>
-						<li><a href="desarrolloPersonas.html"><span>Desarrollo de Personas</span></a></li>
-					</ul>
-					</li>
-				</ul>
-			</li>
-				<li class=""><a href="#anchor-about"><span>Actividades</span></a>
-				
-			</li>
-				<li class=""><a href="blog.html"><span>Noticias</span></a>
-			</li>
-				<li class=""><a href="contacto.html"><span>Contacto</span></a>
-			</li>
-				
-			</ul>
-
-		</div>
-	</div>
+	<?php include("include/navemovil.php");?>
 	<!-- End mobile menu -->
 
 </div>
 </div>
 <!-- End header row -->
-</div>
-
 </div>
 
 </div>
@@ -209,10 +126,10 @@
 	
 		<div class="pi-row">
 			<div class="pi-col-sm-4 pi-center-text-xs">
-				<h1 class="h2 pi-weight-300 pi-margin-bottom-5">Blog</h1>
+				<h1 class="h2 pi-weight-300 pi-margin-bottom-5"></h1>
 			</div>
 			<div class="pi-col-sm-8 pi-text-right pi-center-text-xs">
-				<p class="lead-20 pi-weight-300 pi-margin-top-5 pi-margin-bottom-5"></p>
+				<p class="lead-20 pi-weight-300 pi-margin-top-5 pi-margin-bottom-5">Regulación Administrativa (Poder de Policía del Estado) y Seguros Privados. Posible complementariedad virtuosa.</p>
 			</div>
 		</div>
 		
@@ -229,8 +146,9 @@
 	<div class="pi-section pi-titlebar pi-breadcrumb-only">
 		<div class="pi-breadcrumb pi-center-text-xs">
 			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li>Blog</li>
+				<li><a href="index.php">Inicio</a></li>
+				<li><a href="blog.php">Noticias</a></li>
+				<li>Blog 1</li>
 			</ul>
 		</div>
 	</div>
@@ -241,136 +159,162 @@
 
 <!-- - - - - - - - - - SECTION - - - - - - - - - -->
 
-<div class="pi-section-w pi-section-white">
+<div class="pi-section-w pi-section-white pi-slider-enabled piTooltips piSocials">
 	<div class="pi-section pi-padding-bottom-10">
 		
 		<div class="pi-row">
 		
-			<div class="pi-col-sm-9">
-				
-				<!-- Post -->
-				<div class="pi-row">
-					
-					<!-- Post thumbnail -->
-					<div class="pi-col-sm-2">
-						<div class="pi-img-w pi-img-round-corners pi-img-shadow">
-							<a href="img_external/gallery/digital-photo-camera.jpg" class="pi-colorbox">
-								<img src="img_external/gallery/digital-photo-camera-sq.jpg" alt="">
-								<div class="pi-img-overlay pi-no-padding pi-img-overlay-dark">
-									<div class="pi-caption-centered">
-										<div>
-											<span class="pi-caption-icon pi-caption-icon-small pi-caption-scale icon-search"></span>
-										</div>
-									</div>
-								</div>
-							</a>
+			<div class="pi-col-sm-12 pi-padding-bottom-40">
+			
+				<!-- Slider -->
+				<div class="pi-slider-wrapper pi-slider-arrows-inside pi-slider-show-arrow-hover pi-margin-bottom-40">
+					<div class="pi-slider pi-slider-animate-opacity">
+
+						<!-- Slide -->
+						<div class="pi-slide">
+							<div class="pi-img-w pi-img-round-corners pi-img-shadow pi-img-with-overlay">
+
+								<a href="img_external/gallery/blog-1.jpg" class="pi-colorbox"><img src="img_external/gallery/blog-1.jpg" alt=""/></a>
+
+							</div>
 						</div>
+						<!-- End slide -->
 					</div>
-					<!-- End post thumbnail -->
-					
-					<!-- Post content -->
-					<div class="pi-col-sm-10">
-						<h2 class="h3 pi-margin-top-minus-5">
-							<a href="#" class="pi-link-dark">LA RELEVANCIA EDUCATIVA EN EL CONTEXTO LATINOAMERICANO</a>
-						</h2>
-						<p>
-							Las principales redes sociales tienen direcciones especiales, usadas por las aplicaciones para facilitar a los usuarios recomendar, publicar y compartir contenido ya sea una página, imagen, video o cualquier otro archivo.
-Son usadas cuando damos un clic en los botones insertados en las páginas o en las aplicaciones que instalamos en el celular.
-Podemos utilizar estas direcciones de forma manual a nuestro antojo y para nuestras necesidades.
-La mayoría solo necesita la dirección absoluta del archivo o página, otras requieren dos parámetros, generalmente la dirección y el título.
-						</p>
-						<p>
-							<a href="#" class="btn pi-btn-base">
-								Leer
-							</a>
-						</p>
-					</div>
-					<!-- End post content -->
-					
 				</div>
-				<!-- End post -->
+				<!-- End slider -->
 				
+				<h2 class="pi-weight-600">
+				Regulación Administrativa (Poder de Policía del Estado) y Seguros Privados. Posible complementariedad virtuosa.
+				</h2>
 				
-				<hr class="pi-divider pi-divider-dashed pi-divider-big">
+				<p class="lead-20">
+					Artículo dedicado a mis colegas Patricia Balbuena, Norma Correa y Gisselle Romero. Sus ideas sobre innovación en el Sector Público, motivan a pensar diferente, por un Estado mejor; buscando el bienestar de la sociedad.
+				</p>
 				
-				<!-- Post -->
-				<div class="pi-row">
+				<p>
+					<span class="pi-dropcap">
+						El Poder Policía constituye una de las manifestaciones de la Función Administrativa del Estado. Esta consiste en la ordenación, regulación, limitación de derechos, para articularlos, coordinarlos, adecuarlos al interés general, público o derechos o intereses legítimos de otros ciudadanos. A estas función también se le conoce como "Regulación Administrativa".
+
+La Regulación Administrativa o el Poder de Policía se fundamenta esencialmente en el riesgo o en la prevención de éste, frente a actividades desarrolladas por los ciudadanos que pudieran afectar a otros. Para tal efecto, el Estado actúa efectiva o positivamente, con mecanismos previos o posteriores, para hacer efectivas dichas limitaciones de derechos.
+
+La forma más común en que el Estado ejerce su Poder de Policía es a través de intervenciones ex – ante. Es decir, previas a la actuación del ciudadano. En este rubro encontramos a las autorizaciones, licencias y permisos.
+
+Tradicionalmente, los mecanismos de autorizaciones, licencias y permisos están diseñados de manera tal, que es el propio Estado quien define normativamente los riesgos, las medidas preventivas necesarias a asumirse, los mecanismos de mitigación de riesgos y; verifica (administrativamente) su cumplimiento. En la perspectiva tradicional todo lo define, establece y administra el Estado. Con sus recursos, sus procedimientos y su personal.
+
+
+Debido a que justamente estos mecanismos de autorizaciones, licencias y permisos se realizan directamente por el Estado (con sus recursos, procedimientos y personal), su efectividad real queda sometida a las limitaciones propias que las organizaciones estatales enfrentan.
+
+Considero que tales mecanismos (autorizaciones, licencias y permisos) podrían simplificarse para el Estado y el ciudadano y –sin embargo– potenciarse en cuanto a su finalidad de prevención de riesgos; utilizando el mercado, a través del mecanismo de seguros.
+
+A través de los seguros una empresa aseguradora otorga la cobertura de un riesgo y se compromete a pagar una indemnización si este se produce. Obviamente esto no se produce de manera gratuita, sino que, a cambio de dicha cobertura, el asegurado debe pagar una prima.
+
+En mi opinión, el Estado podría simplificar los mecanismos de autorizaciones, licencias y permisos -en cuanto a procedimientos y requisitos- si se exigieran únicamente seguros. Con esto, una serie de operaciones materiales como inspecciones, evaluaciones y similares ya nos serían tendrían que ser realizadas necesariamente por el Estado (con el consiguiente ahorro de recursos y ganancias de eficiencia). Por otro lado, el ciudadano ya no tendría que lidiar principalmente con Estado sino, con compañías privadas (lo cual también generaría un ahorro de recursos para el Sector Privado).
+
+Adicionalmente, el mercado de seguros “ajustaría” los niveles de riesgos producidos, en función  a los distintos sujetos, y a las distintas actividades realizadas, a través del valor de la prima. De este modo, actividades más riesgosas o sujetos más irresponsables (o con mal record de diligencia) pagarían más como prima del seguro. Esto reduciría en el mercado, el número de participantes excesivamente riesgosos o que no sean aptos de cumplir determinados estándares de seguridad.
+
+Otra ventaja sería la cobertura cierta del riesgo, a través de una indemnización. La autorización, licencia o permiso tradicional busca prevenir el riesgo, pero si este ocurre, no tiene garantizada la indemnización.
+
+Finalmente, el mecanismo de seguros facilitaría la supervisión y fiscalización del Estado, ya que solamente se tendría que verificar la vigencia del seguro.
+
+					</span>
+				</p>
+
+				<!-- Box -->				
+				<div class="pi-box pi-box-slave pi-box-small pi-border pi-round pi-margin-bottom-40">
 					
-					<!-- Post thumbnail -->
-					<div class="pi-col-sm-2">
-						<div class="pi-img-w pi-img-round-corners pi-img-shadow">
-							<a href="img_external/gallery/mobile-business.jpg" class="pi-colorbox">
-								<img src="img_external/gallery/mobile-business-sq.jpg" alt="">
-								<div class="pi-img-overlay pi-no-padding pi-img-overlay-dark">
-									<div class="pi-caption-centered">
-										<div>
-											<span class="pi-caption-icon pi-caption-icon-small pi-caption-scale icon-search"></span>
-										</div>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					<!-- End post thumbnail -->
-					
-					<!-- Post content -->
-					<div class="pi-col-sm-10">
-						<h2 class="h3 pi-margin-top-minus-5">
-							<a href="#" class="pi-link-dark">ESTA ES LA MAQUINA DISPENSADORA MAS GRANDE DEL MUNDO</a>
-						</h2>
+					<div class="pi-row">
 						
-						<p>
-							Imagine comprar un automóvil de la misma manera en que compra una botella de Coca-Cola en una máquina dispensadora común y corriente. Esto ya es posible en países como Estados Unidos, Japón y Singapur. Y en este último país se encuentra la dispensadora de vehículos más grande del mundo hasta el momento.
-
-La torre de 15 pisos con capacidad para hasta 60 vehículos (clásicos y nuevos) de Autobahn Motors Singapore (ABM), utiliza este sistema de ‘vending’ para ofrecer autos de lujo de marcas como Mercedes-Benz, Bentley, Ferrari, Lamborghini, entre otras. El gerente general de la empresa, Gary Hong, dijo al diario ‘Strait Times’ de Singapur que quería exhibir los automóviles como en un concurso de belleza.
-						</p>
-						<p>
-							<a href="#" class="btn pi-btn-base">
-								Leer
-							</a>
-						</p>
+						<div class="pi-col-sm-4 pi-center-text-xs">
+							<h6 class="pi-uppercase pi-weight-700" style="margin-top: 2px;">
+								Share This Post:
+							</h6>
+						</div>
+						
+						<div class="pi-col-sm-8 pi-text-right pi-center-text-xs">
+							<ul class="pi-social-icons pi-colored-bg pi-small pi-active-bg pi-jump pi-jump-bg pi-round pi-clearfix">
+								<li><a href="#" class="pi-social-icon-facebook"><i class="icon-facebook"></i></a></li>
+								<li><a href="#" class="pi-social-icon-twitter"><i class="icon-twitter"></i></a></li>
+								<li><a href="#" class="pi-social-icon-linkedin"><i class="icon-linkedin"></i></a></li>
+							</ul>
+						</div>
+						
 					</div>
-					<!-- End post content -->
 					
 				</div>
-				<!-- End post -->
+				<!-- End box -->
+				
+				<!-- Box -->				
+			
+				<!-- End box -->
 				
 				<hr class="pi-divider pi-divider-dashed pi-divider-big">
-
-				<div class="pi-pagenav pi-padding-bottom-40">
-					<ul>
-						<li><a href="#">anterior</a></li>
-						<li><a href="#">1</a></li>
-						<li><a href="#" class="pi-active">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-						<li><a href="#">siguiente</a></li>
-					</ul>
-				</div>
 				
+				
+				
+				<!-- Row -->
+				
+					<!-- End col 4 -->
+					
+					<!-- Col 4 -->
+					
+					<!-- End col 4 -->
+					
+				
+					
+				</div>
+				<!-- End row -->
+				
+				<hr class="pi-divider pi-divider-dashed pi-divider-big">
+				
+				
+				<ul class="pi-comments">
+					<li>
+						
+						<ul>
+							<li>
+								
+								<ul>
+									<li>
+										
+									</li>
+									<li>
+										
+									</li>
+								</ul>
+							</li>
+							<li>
+								
+							</li>
+						</ul>
+					</li>
+					<li>
+						
+					</li>
+					<li>
+						
+					</li>
+				</ul>
+
+				
+				<div id="disqus_thread"></div>
+				<script type="text/javascript">
+					/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+					var disqus_shortname = 'pithemes'; // required: replace example with your forum shortname
+
+					/* * * DON'T EDIT BELOW THIS LINE * * */
+					(function() {
+						var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+						dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+						(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+					})();
+				</script>
+				
+
 			</div>
 		
 			<div class="pi-sidebar pi-col-sm-3">
 				
-				
-				
-				<!-- Tweets -->
-				<div class="pi-sidebar-block pi-padding-bottom-40">
-					<h3 class="h6 pi-uppercase pi-weight-700 pi-letter-spacing pi-has-bg pi-margin-bottom-20">
-						Notas de Blog
-					</h3>
-					<ul class="pi-list-with-icons pi-list-icons-twitter pi-list-big-margins">
-						<li><a href="#">@envato</a>: comentario <a href="#" class="pi-link-dark">comentario</a> comentario 
-						<br> <span class="pi-italic pi-small-text pi-text-silver"></span></li>
-						<li><a href="#">@themeforest</a>: comentario <a href="#" class="pi-link-dark"></a> comentario
-						<br> <span class="pi-italic pi-small-text pi-text-silver"></span></li>
-					</ul>
-				</div>
-				<!-- End tweets -->
-				
-				<!-- Testimonial -->
-				
-				<!-- End testimonial -->
+		
 				
 			</div>
 			
@@ -407,9 +351,9 @@ La torre de 15 pisos con capacidad para hasta 60 vehículos (clásicos y nuevos)
 			<div class="pi-col-md-4 pi-col-sm-6 pi-padding-bottom-30">
 
 				<h6 class="pi-weight-700 pi-uppercase pi-letter-spacing pi-has-border pi-has-tall-border pi-has-short-border">
-				Acerca de OLAGED
+				NOSOTROS
 			    </h6>
-			    <p><p>Somos una Asociación Civil que tiene por finalidad promover la investigación, análisis, estudio y promoción de políticas públicas en el Perú y América Latina; difundir el conocimiento en administración y gestión en general; y fortalecer capacidades para las personas que forman parte de la gestión pública o que desarrollan políticas públicas.</p></p>
+			    <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500</p>
 
 			</div>
 			<!-- End col 4 -->
@@ -466,6 +410,8 @@ La torre de 15 pisos con capacidad para hasta 60 vehículos (clásicos y nuevos)
 <script src="scripts/pi.imagesLoader.js"></script>
 <script src="scripts/pi.columnFix.js"></script>
 <script src="scripts/pi.init.caption.js"></script>
+<script src="scripts/pi.slider.js"></script>
+<script src="scripts/pi.init.slider.js"></script>
 <script src="scripts/pi.init.social.js"></script>
 <script src="scripts/pi.ddMenu.js"></script>
 <script src="scripts/pi.init.removeLastElMargin.js"></script>

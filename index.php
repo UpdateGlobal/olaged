@@ -83,7 +83,7 @@
 
 <!-- Logo -->
 <div class="pi-header-block pi-header-block-logo">
-	<a href="index.html"><img src="images/logo.svg" alt=""></a>
+	<a href="index.php"><img src="images/logo.svg" alt=""></a>
 </div>
 <!-- End logo -->
 
@@ -92,48 +92,7 @@
 <!-- End text -->
 
 <!-- Menu -->
-<div class="pi-header-block pi-pull-right">
-<ul class="pi-simple-menu pi-has-hover-border pi-full-height pi-hidden-sm">
-<li class="pi active "><a href="nosotros.html"><span>Nosotros</span></a>
-			
-</li>
-<li class="pi-has-dropdown  "><a href="#servicios"><span>Servicios</span></a>
-	<ul class="pi-submenu pi-has-border pi-items-have-borders pi-has-shadow pi-submenu-dark">
-		
-		
-		<li class="pi" ><a href="servicio-de-investigacion.html"><span>Servicio de Investigación</span></a>
-		<!-- <ul class="pi-submenu">
-			<li><a href="headers-headers-light.html"><span>Headers Light</span></a></li>
-			<li><a href="headers-headers-dark.html"><span>Headers Dark</span></a></li>
-			<li><a href="headers-headers-base.html"><span>Headers Base</span></a></li>
-			
-		</ul> -->
-		</li>
-		
-		
-		<li class="pi" ><a href="gestion.html"><span>Gestión</span></a>
-
-		</li>
-		
-		
-		<li class="pi" ><a href="capacitacion.html"><span>Capacitación</span></a>
-
-		</li>
-		
-		
-		<li><a href="desarrolloPersonas.html"><span>Desarrollo de Personas</span></a></li>
-		
-	</ul>
-		
-</li>
-<li class="pi"><a href="#actividades"><span>Actividades</span></a></li>
-<li class="pi"><a href="blog.html"><span>Noticias</span></a>
-	
-</li>
-<li class="pi"><a href="contacto.html"><span>Contacto</span></a></li>
-
-</ul>
-</div>
+<?php include("include/navegacion.php"); ?>
 <!-- End menu -->
 
 <!-- Mobile menu button -->
@@ -146,42 +105,7 @@
 
 
 	<!-- Mobile menu -->
-	<div id="pi-main-mobile-menu" class="pi-section-menu-mobile-w pi-section-dark">
-		<div class="pi-section-menu-mobile">
-
-			<ul class="pi-menu-mobile pi-items-have-borders pi-menu-mobile-dark">
-				<li class="active"><a href="nosotros.html"><span>Nosotros</span></a>
-				</li>
-				<li class=""><a href="#servicios"><span>Servicios</span></a>
-				<ul>
-					<li><a href="servicio-de-investigacion.html"><span>Servicios de Investigación</span></a>
-					<ul>
-						<!-- <li><a href="headers-headers-light.html"><span>Headers Light</span></a></li>
-						<li><a href="headers-headers-dark.html"><span>Headers Dark</span></a></li>
-						<li><a href="headers-headers-base.html"><span>Headers Base</span></a></li> -->
-						
-					</ul>
-					</li>
-					<li><a href="gestion.html"><span>Gestión</span></a>
-					<ul>
-						<li><a href="capacitacion.html"><span>Capacitación</span></a></li>
-						<li><a href="desarrolloPersonas.html"><span>Desarrollo de Personas</span></a></li>
-					</ul>
-					</li>
-				</ul>
-			</li>
-				<li class=""><a href="#actividades"><span>Actividades</span></a>
-				
-			</li>
-				<li class=""><a href="blog.html"><span>Noticias</span></a>
-			</li>
-				<li class=""><a href="contacto.html"><span>Contacto</span></a>
-			</li>
-				
-			</ul>
-
-		</div>
-	</div>
+<?php include("include/navemovil.php");?>
 	<!-- End mobile menu -->
 
 </div>
@@ -509,9 +433,9 @@
 					</span>
 				
 				</div>
-				<h3 class="h6 pi-weight-700 pi-uppercase pi-letter-spacing pi-margin-bottom-5"><a href="#" class="pi-link-dark">Servicio de Investigación</a></h3>
+				<h3 class="h6 pi-weight-700 pi-uppercase pi-letter-spacing pi-margin-bottom-5"><a  class="pi-link-dark">Servicio de Investigación</a></h3>
 				<ul class="pi-meta">
-					<strong><a href="servicio-de-investigacion.html">Más Información</a></strong>
+					<strong><a href="servicio-de-investigacion.php">Más Información</a></strong>
 				</ul>
 			</div>
 			<!-- End portfolio item -->
@@ -525,9 +449,9 @@
 					</span>
 					
 				</div>
-				<h3 class="h6 pi-weight-700 pi-uppercase pi-letter-spacing pi-margin-bottom-5"><a href="#" class="pi-link-dark">Gestión</a></h3>
+				<h3 class="h6 pi-weight-700 pi-uppercase pi-letter-spacing pi-margin-bottom-5"><a  class="pi-link-dark">Gestión</a></h3>
 				<ul class="pi-meta">
-					<strong><a href="gestion.html">Más Información</a></strong>
+					<strong><a href="gestion.php">Más Información</a></strong>
 				</ul>
 			</div>
 			<!-- End portfolio item -->
@@ -539,9 +463,9 @@
 					   <span class="pi-img-overlay pi-img-overlay-white">
 					</span>
 				</div>
-				<h3 class="h6 pi-weight-700 pi-uppercase pi-letter-spacing pi-margin-bottom-5"><a href="#" class="pi-link-dark">Capacitación</a></h3>
+				<h3 class="h6 pi-weight-700 pi-uppercase pi-letter-spacing pi-margin-bottom-5"><a  class="pi-link-dark">Capacitación</a></h3>
 				<ul class="pi-meta">
-					<strong><a href="capacitacion.html">Más Información</a></strong>
+					<strong><a href="capacitacion.php">Más Información</a></strong>
 				</ul>
 			</div>
 			<!-- End portfolio item -->
@@ -553,9 +477,9 @@
 					 <span class="pi-img-overlay pi-img-overlay-white">
 					</span>
 				</div>
-				<h3 class="h6 pi-weight-700 pi-uppercase pi-letter-spacing pi-margin-bottom-5"><a href="#" class="pi-link-dark">Desarrollo de Personas</a></h3>
+				<h3 class="h6 pi-weight-700 pi-uppercase pi-letter-spacing pi-margin-bottom-5"><a class="pi-link-dark">Desarrollo de Personas</a></h3>
 				<ul class="pi-meta">
-					<strong><a href="desarrolloPersonas.html">Más Información</a></strong>
+					<strong><a href="desarrolloPersonas.php">Más Información</a></strong>
 				</ul>
 			</div>
 			<!-- End portfolio item -->
@@ -586,7 +510,7 @@
 		</p>
 
 		<p class="pi-text-center">
-			<a href="nosotros.html" class="btn pi-btn-base">
+			<a href="nosotros.php" class="btn pi-btn-base">
 				Más Info
 			</a>
 		</p>
@@ -625,7 +549,7 @@
 
 				</div>
 				<p class="pi">
-			      <a href="blog.html" class="btn pi-btn-base">
+			      <a href="blog.php" class="btn pi-btn-base">
 				       Más Info
 			      </a>
 		</p>
@@ -850,7 +774,7 @@
 				</div>
 				
 				<h2 class="h5 pi-margin-top-minus-5 pi-margin-bottom-5">
-					<a href="#" class="pi-link-dark">LA RELEVANCIA EDUCATIVA EN EL CONTEXTO LATINOAMERICANO</a>
+					<a href="#" class="pi-link-dark">Regulación Administrativa (Poder de Policía del Estado) y Seguros Privados. Posible complementariedad virtuosa.</a>
 				</h2>
 				
 				<ul class="pi-meta pi-margin-bottom-10">
@@ -858,7 +782,8 @@
 					<li><i class="icon-comment"></i>comentarios</li>
 				</ul>
 				<p>
-					Las principales redes sociales tienen direcciones especiales, usadas por las aplicaciones para facilitar a los usuarios recomendar, publicar y compartir contenido ya sea una página, imagen, video o cualquier otro archivo. <a href="blog.html" class="pi-italic">Leer mas</a>
+					El Poder Policía constituye una de las manifestaciones de la Función Administrativa del Estado. Esta consiste en la ordenación, regulación, limitación de derechos, para articularlos, coordinarlos, adecuarlos al interés general, público o derechos o intereses legítimos de otros ciudadanos. A estas función también se le conoce como "Regulación Administrativa".
+					 <a href="nota-blog.php" class="pi-italic">Leer mas</a>
 				</p>
 				<!-- End post item -->
 				
@@ -878,7 +803,9 @@
 				</div>
 				
 				<h2 class="h5 pi-margin-top-minus-5 pi-margin-bottom-5">
-					<a href="#" class="pi-link-dark">ESTA ES LA MAQUINA DISPENSADORA MAS GRANDE DEL MUNDO</a>
+					<a href="#" class="pi-link-dark">
+						Los problemas del Servicio Civil. Persistencia de problemas y de falta de medidas (parte 2)
+					</a>
 				</h2>
 				
 				<ul class="pi-meta pi-margin-bottom-10">
@@ -886,7 +813,8 @@
 					<li><i class="icon-comment"></i>comentarios</li>
 				</ul>
 				<p>
-					Imagine comprar un automóvil de la misma manera en que compra una botella de Coca-Cola en una máquina dispensadora común y corriente. Esto ya es posible en países como Estados Unidos, Japón y Singapur. Y en este último país se encuentra la dispensadora de vehículos más grande del mundo  <a href="blog.html" class="pi-italic">Leer mas</a>
+					A partir de la dación del Decreto Legislativo N° 1023 (en el año 2008) queda claro que el Sistema Administrativo de Gestión de Recursos Humanos en un sistema administrativo, que comprende el conjunto de normas, principios, recursos, métodos, procedimientos y técnicas utilizados por las entidades del sector público.
+					  <a href="nota-blog2.php" class="pi-italic">Leer mas</a>
 				</p>
 				<!-- End post item -->
 				

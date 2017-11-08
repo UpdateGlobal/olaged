@@ -84,7 +84,7 @@
 
 <!-- Logo -->
 <div class="pi-header-block pi-header-block-logo">
-	<a href="index.html"><img src="images/logo.svg" alt=""></a>
+	<a href="index.php"><img src="images/logo.svg" alt=""></a>
 </div>
 <!-- End logo -->
 
@@ -93,48 +93,7 @@
 <!-- End text -->
 
 <!-- Menu -->
-<div class="pi-header-block pi-pull-right">
-<ul class="pi-simple-menu pi-has-hover-border pi-full-height pi-hidden-sm">
-<li class="pi active "><a href="nosotros.html"><span>Nosotros</span></a>
-			
-</li>
-<li class="pi-has-dropdown  "><a href="#"><span>Servicios</span></a>
-	<ul class="pi-submenu pi-has-border pi-items-have-borders pi-has-shadow pi-submenu-dark">
-		
-		
-		<li class="pi" ><a href="servicio-de-investigacion.html"><span>Servicio de Investigación</span></a>
-		<!-- <ul class="pi-submenu">
-			<li><a href="headers-headers-light.html"><span>Headers Light</span></a></li>
-			<li><a href="headers-headers-dark.html"><span>Headers Dark</span></a></li>
-			<li><a href="headers-headers-base.html"><span>Headers Base</span></a></li>
-			
-		</ul> -->
-		</li>
-		
-		
-		<li class="pi" ><a href="gestion.html"><span>Gestión</span></a>
-
-		</li>
-		
-		
-		<li class="pi" ><a href="capacitacion.html"><span>Capacitación</span></a>
-
-		</li>
-		
-		
-		<li><a href="desarrolloPersonas.html"><span>Desarrollo de Personas</span></a></li>
-		
-	</ul>
-		
-</li>
-<li class="pi"><a href="#anchor-about"><span>Actividades</span></a></li>
-<li class="pi"><a href="blog.html"><span>Noticias</span></a>
-	
-</li>
-<li class="pi"><a href="contacto.html"><span>Contacto</span></a></li>
-
-</ul>
-</div>
+<?php include("include/navegacion.php"); ?>
 <!-- End menu -->
 
 <!-- Mobile menu button -->
@@ -147,42 +106,7 @@
 
 
 	<!-- Mobile menu -->
-	<div id="pi-main-mobile-menu" class="pi-section-menu-mobile-w pi-section-dark">
-		<div class="pi-section-menu-mobile">
-
-			<ul class="pi-menu-mobile pi-items-have-borders pi-menu-mobile-dark">
-				<li class="active"><a href="nosotros.html.html"><span>Nosotros</span></a>
-				</li>
-				<li class=""><a href="#"><span>Servicios</span></a>
-				<ul>
-					<li><a href="servicio-de-investigacion.html"><span>Servicios de Investigación</span></a>
-					<ul>
-						<!-- <li><a href="headers-headers-light.html"><span>Headers Light</span></a></li>
-						<li><a href="headers-headers-dark.html"><span>Headers Dark</span></a></li>
-						<li><a href="headers-headers-base.html"><span>Headers Base</span></a></li> -->
-						
-					</ul>
-					</li>
-					<li><a href="gestion.html"><span>Gestión</span></a>
-					<ul>
-						<li><a href="capacitacion.html"><span>Capacitación</span></a></li>
-						<li><a href="desarrolloPersonas.html"><span>Desarrollo de Personas</span></a></li>
-					</ul>
-					</li>
-				</ul>
-			</li>
-				<li class=""><a href="#anchor-about"><span>Actividades</span></a>
-				
-			</li>
-				<li class=""><a href="blog.html"><span>Noticias</span></a>
-			</li>
-				<li class=""><a href="contacto.html"><span>Contacto</span></a>
-			</li>
-				
-			</ul>
-
-		</div>
-	</div>
+	<?php include("include/navemovil.php");?>
 	<!-- End mobile menu -->
 
 </div>
@@ -202,10 +126,10 @@
 	
 		<div class="pi-row">
 			<div class="pi-col-sm-4 pi-center-text-xs">
-				<h1 class="h2 pi-weight-300 pi-margin-bottom-5">Blog Single</h1>
+				<h1 class="h2 pi-weight-300 pi-margin-bottom-5"></h1>
 			</div>
 			<div class="pi-col-sm-8 pi-text-right pi-center-text-xs">
-				<p class="lead-20 pi-weight-300 pi-margin-top-5 pi-margin-bottom-5">Neque porro quisquam qui dolorem</p>
+				<p class="lead-20 pi-weight-300 pi-margin-top-5 pi-margin-bottom-5">Los principios del procedimiento administrativo sancionador. Razones para una discrepancia.</p>
 			</div>
 		</div>
 		
@@ -222,9 +146,9 @@
 	<div class="pi-section pi-titlebar pi-breadcrumb-only">
 		<div class="pi-breadcrumb pi-center-text-xs">
 			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Company</a></li>
-				<li>Blog Single</li>
+				<li><a href="index.php">Inicio</a></li>
+				<li><a href="blog.php">Noticias</a></li>
+				<li>Blog 3</li>
 			</ul>
 		</div>
 	</div>
@@ -243,7 +167,8 @@
 			<div class="pi-col-sm-12 pi-padding-bottom-40">
 			
 				<!-- Slider -->
-				<div class="pi-slider-wrapper pi-slider-arrows-inside pi-slider-show-arrow-hover pi-margin-bottom-40">
+				
+<div class="pi-slider-wrapper pi-slider-arrows-inside pi-slider-show-arrow-hover pi-margin-bottom-40">
 					<div class="pi-slider pi-slider-animate-opacity">
 
 						<!-- Slide -->
@@ -255,49 +180,56 @@
 							</div>
 						</div>
 						<!-- End slide -->
-
-						<!-- Slide -->
-						<div class="pi-slide">
-							<div class="pi-img-w pi-img-round-corners pi-img-shadow pi-img-with-overlay">
-
-								<a href="img_external/gallery/blog-2.jpg" class="pi-colorbox"><img src="img_external/gallery/blog-2.jpg" alt=""/></a>
-
-							</div>
-						</div>
-						<!-- End slide -->
-
 					</div>
 				</div>
 				<!-- End slider -->
 				
 				<h2 class="pi-weight-600">
-					Ullam Corporis Suscipit Laboriosam
+				Los principios del procedimiento administrativo sancionador. Razones para una discrepancia.
 				</h2>
 				
-				<ul class="pi-meta">
-					<li><i class="icon-user"></i>by <a href="#">Admin</a></li>
-					<li><i class="icon-clock"></i>May 23, 2014</li>
-					<li><i class="icon-comment"></i><a href="#">2 Comments</a></li>
-				</ul>
-				
 				<p class="lead-20">
-					Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+				
 				</p>
 				
 				<p>
-					<span class="pi-dropcap">N</span>emo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-				</p>
-				
-				<ul class="pi-list-with-icons pi-list-icons-dot">
-					<li><a href="#">Consectetur adipisicing</a></li>
-					<li><a href="#">Eiusmod tempor incididunt</a></li>
-					<li><a href="#">Labore et dolore</a></li>
-					<li><a href="#">Nostrud exercitation</a></li>
-				</ul>
-				
-				<p>
-					At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint <strong>occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt</strong> mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
-				</p>
+					<span class="pi-dropcap">
+				   En los últimos años, un sector de nuestra doctrina ha venido sosteniendo la aplicación –casi de manera automática– de los principios y garantías del derecho y del proceso penal, al procedimiento administrativo sancionador (al derecho administrativo). Esto inclusive se ha llevado a nivel normativo, en la Ley del Procedimiento Administrativa General.
+
+Para esta doctrina, ambas ramas jurídicas (penal y administrativo sancionador) tienen similar naturaleza, porque se trata de actividades sancionadoras que realiza el Estado. En ello fundamentan la inclusión o la extensión de principios penales al procedimiento administrativo sancionador. 
+
+Si bien ambas ramas se manifiestan en actividades sancionadoras del Estado, discrepo en la aplicación automática de los principios y garantías penales. Esto, porque existen diferencias que justifican su trato diferente y no son automáticamente equiparables.
+
+
+En primer lugar, el derecho penal es considerado “última ratio”, último mecanismo de protección de la sociedad, que opera cuando otros del sistema jurídico no han funcionado. Por eso, conceptualmente su intervención es considerada especial, acotada y excepcional. Sus sanciones son particularmente graves, afectan fundamentalmente la libertad de las personas (el bien jurídico más importante, luego de la vida). Ello explica también, por qué las decisiones penales se dan en sede judicial.
+
+En el derecho sancionador administrativo la cosa es distinta, porque;
+i)	No consiste en la última ratio del sistema jurídico.
+ii)	Las sanciones administrativas no afectan directamente la libertad. Estas sanciones afectan otros bienes jurídicos, que no están al mismo nivel que aquella.
+iii)	Las sanciones administrativas son revisables por una autoridad judicial. Como es sabido, cualquier actuación indebida o disfuncional de la Administración es recurrible ante el Poder Judicial.
+
+
+Crítica a la inclusión del Principio de Culpabilidad.-
+
+De incluirse este principio, la aplicación de sanciones requerirá no solamente la demostración de la conducta tipificada como falta o infracción, sino, adicionalmente acreditar la culpabilidad (el dolo o la negligencia). Este es un principio que recientemente ha sido incluido en la LPAG, con la última modificación (Decreto Legislativo 1272)
+
+Más allá del comentario general ya realizado sobre la asimilación automática de los principios y garantías del derecho y proceso penal, resulta inconveniente este principio al procedimiento administrativo sancionador, por lo siguiente:
+
+a)	Determinar la culpabilidad (dolo o culpa) es una actividad que haría más complejo el procedimiento. Hay que tener en cuenta que ya es difícil determinarla en sede judicial. En sede administrativa es más complicado, considerando los plazos de este tipo de procedimientos (que están diseñados para ser sumarísimos). Una consecuencia grave sería la impunidad, si no se logra determinar la culpabilidad.
+
+b)	Los sistemas de responsabilidad subjetiva son procedimentalmente más onerosos que los sistemas de responsabilidad objetiva.
+
+c)	Existe discusión y discrepancia doctrinaria sobre la aplicación de la culpabilidad a las personas jurídicas. Existe doctrina que señala que este concepto no es aplicable a las personas jurídicas. Si esto es así, las personas jurídicas no serían pasibles de sanción vía procedimiento administrativo sancionador.
+
+Crítica a la inclusión del Principio de Retroactividad Benigna.
+
+Es altamente cuestionable haber incluido el principio de retroactividad benigna para las normas sancionadoras administrativas. Como señala el profesor Dante Mendoza (http://dantemendoza.blogspot.pe/2013/08/el-principio-de-retroactividad-benigna.html), siguiendo a Marcial Rubio, la regla constitucional es la irretroactividad de las normas. La retroactividad de las normas penales es la excepción y como tal, debe ser considerada de manera restrictiva. Por tanto, así debe ser considerada e interpretada. 
+
+Sobre este punto debe tomarse en cuenta que el Congreso Constituyente Democrático discutió la posibilidad de extender la retroactividad a otros casos (además del penal), pero finalmente decidió mantenerlo en el ámbito penal. Por tanto, no podría extenderse la retroactividad benigna a normas no penales (como las pertenecientes al derecho administrativo).
+
+                     
+					</span>
+				</p>			
 				
 				
 				
@@ -317,10 +249,6 @@
 							<ul class="pi-social-icons pi-colored-bg pi-small pi-active-bg pi-jump pi-jump-bg pi-round pi-clearfix">
 								<li><a href="#" class="pi-social-icon-facebook"><i class="icon-facebook"></i></a></li>
 								<li><a href="#" class="pi-social-icon-twitter"><i class="icon-twitter"></i></a></li>
-								<li><a href="#" class="pi-social-icon-weibo"><i class="icon-weibo"></i></a></li>
-								<li><a href="#" class="pi-social-icon-pinterest"><i class="icon-pinterest"></i></a></li>
-								<li><a href="#" class="pi-social-icon-gplus"><i class="icon-gplus"></i></a></li>
-								<li><a href="#" class="pi-social-icon-tumblr"><i class="icon-tumblr"></i></a></li>
 								<li><a href="#" class="pi-social-icon-linkedin"><i class="icon-linkedin"></i></a></li>
 							</ul>
 						</div>
