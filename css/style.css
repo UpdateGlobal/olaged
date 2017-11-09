@@ -3714,6 +3714,7 @@ hr {
 }
 .pi-section-header-lg .pi-header-block-logo img {
   max-height: 100px;
+  padding: 5px;
 }
 .pi-section-header-md .pi-header-block-logo img {
   max-height: 70px;
