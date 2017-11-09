@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-	<title>Contact 1</title>
+	<title>Contacto - Olaged</title>
 
 	<link rel="shortcut icon" href="images/favicon.ico">
 

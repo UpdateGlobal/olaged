@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>olaged</title>
+	<title>Gracias - Olaged</title>
 	<meta name="description" content="A Responsive HTML Theme" />
 	<meta name="keywords" content="html, responsive, theme" />
 	<meta name="author" content="">

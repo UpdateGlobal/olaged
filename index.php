@@ -82,7 +82,7 @@
 <div class="pi-section pi-section-header pi-section-header-lg pi-clearfix">
 
 <!-- Logo -->
-<div class="pi-header-block pi-header-block-logo">
+<div id="mejor" class="pi-header-block pi-header-block-logo">
 	<a href="index.php"><img src="images/logo.svg" alt=""></a>
 </div>
 <!-- End logo -->

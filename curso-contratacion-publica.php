@@ -128,7 +128,7 @@
 		<div class="pi-breadcrumb">
 			<ul>
 				<li><a href="index.php">INICIO</a></li>
-				<li>acerca de</li>
+				<li>Curso de Contratación Pública</li>
 			</ul>
 		</div>
 	</div>

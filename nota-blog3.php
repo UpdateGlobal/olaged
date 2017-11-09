@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-	<title>Blog Single Post</title>
+	<title>Los principios del procedimiento administrativo sancionador. Razones para una discrepancia.</title>
 
 	<link rel="shortcut icon" href="images/favicon.ico">
 

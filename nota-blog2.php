@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-	<title>Blog Single Post</title>
+	<title>Los problemas del Servicio Civil. Persistencia de problemas y de falta de medidas (parte 2)</title>
 
 	<link rel="shortcut icon" href="images/favicon.ico">
 

@@ -130,7 +130,7 @@
 		<div class="pi-breadcrumb">
 			<ul>
 				<li><a href="index.php">INICIO</a></li>
-				<li>acerca de</li>
+				<li>Capacitación</li>
 			</ul>
 		</div>
 	</div>

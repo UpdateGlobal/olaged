@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-	<title>Titlebars - Big Breadcrumb Right</title>
+	<title>Desarrollo de Personas</title>
 
 	<link rel="shortcut icon" href="images/favicon.ico">
 
@@ -128,7 +128,7 @@
 		<div class="pi-breadcrumb">
 			<ul>
 				<li><a href="index.php">INICIO</a></li>
-				<li>acerca de</li>
+				<li>Desarrollo de Personas</li>
 			</ul>
 		</div>
 	</div>
