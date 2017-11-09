@@ -430,10 +430,10 @@
 					
 						<img src="img_external/servicios/capacitación.jpg" alt="">
 						<span class="pi-img-overlay pi-img-overlay-white">
-					</span>
+					    </span>
 				
 				</div>
-				<h3 class="h6 pi-weight-700 pi-uppercase pi-letter-spacing pi-margin-bottom-5"><a  class="pi-link-dark">Servicio de Investigación</a></h3>
+				<h6>Servicio de Investigación</h6></h3>
 				<ul class="pi-meta">
 					<strong><a href="servicio-de-investigacion.php">Más Información</a></strong>
 				</ul>
@@ -449,7 +449,7 @@
 					</span>
 					
 				</div>
-				<h3 class="h6 pi-weight-700 pi-uppercase pi-letter-spacing pi-margin-bottom-5"><a  class="pi-link-dark">Gestión</a></h3>
+				<h6>Gestión</h6>
 				<ul class="pi-meta">
 					<strong><a href="gestion.php">Más Información</a></strong>
 				</ul>
@@ -463,7 +463,7 @@
 					   <span class="pi-img-overlay pi-img-overlay-white">
 					</span>
 				</div>
-				<h3 class="h6 pi-weight-700 pi-uppercase pi-letter-spacing pi-margin-bottom-5"><a  class="pi-link-dark">Capacitación</a></h3>
+				<h6>Capacitación</h6>
 				<ul class="pi-meta">
 					<strong><a href="capacitacion.php">Más Información</a></strong>
 				</ul>
@@ -477,7 +477,7 @@
 					 <span class="pi-img-overlay pi-img-overlay-white">
 					</span>
 				</div>
-				<h3 class="h6 pi-weight-700 pi-uppercase pi-letter-spacing pi-margin-bottom-5"><a class="pi-link-dark">Desarrollo de Personas</a></h3>
+				<h6>Desarrollo de Personas</h6>
 				<ul class="pi-meta">
 					<strong><a href="desarrolloPersonas.php">Más Información</a></strong>
 				</ul>
