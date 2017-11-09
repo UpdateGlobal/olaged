@@ -160,15 +160,17 @@
 							<li>Que son impartidos por profesionales con amplia experiencia profesional y credenciales.</li>
 							<li>Académicas que garantizan espacios de aprendizaje que aportan en la gestión pública.</li>
 							<li>Organizamos eventos académicos (seminarios, foros de discusión, conversatorios).</li>
+							<li>en los que convocamos a los actores principales y profesionales de distintas áreas de especialización para analizar temas de interés para la sociedad. Los eventos tienen por finalidad motivar la discusión, mostrar nuevos puntos de vista sobre problemas antiguos o cotidianos y promover el debate, el intercambio de ideas y la investigación.
+</li>
 						</ul>
 					</div>
 
 				</div>
-				<p class="pi">
+			<!--	<p class="pi">
 			      <a href="#" class="btn pi-btn-base">
 				       Más Info
 			      </a>
-		</p>
+		</p> -->
 			</div>
 
 			<div class="pi-col-sm-6 pi-padding-bottom-50">

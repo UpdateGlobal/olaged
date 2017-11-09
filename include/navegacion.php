@@ -35,7 +35,7 @@
 	</ul>
 		
 </li>
-<li class="pi"><a href="#actividades"><span>Actividades</span></a></li>
+<!-- <li class="pi"><a href="#actividades"><span>Actividades</span></a></li> -->
 <li class="pi"><a href="blog.php"><span>Noticias</span></a>
 	
 </li>
