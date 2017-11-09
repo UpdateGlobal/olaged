@@ -250,7 +250,7 @@
 	 data-endspeed="300"
 	 style="z-index: 6; font-size: 34px; color: #21252b; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; line-height: 40px; background: rgba(255, 255, 255, 0.9); padding: 0px 16px; border-radius: 10px; box-shadow: 0 1px 1px rgba(0,0,0,0.15);">
 	 <p>PERFECCIONAMIENTO DE LAS </p>
-	    <p>POLITICAS PUBLICAS</p>
+	    <p>POLÍTICAS PÚBLICAS</p>
 </div>
 
 <!-- LAYER NR. 5 
