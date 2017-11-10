@@ -157,21 +157,15 @@
 							<li>Oportunidades de mejora que se traducen en mejores prácticas o alternativas que permitan solucionar los problemas detectados.</li>
 							<li>Temporibus autem quibusdam et aut officiis debitis aut rerum</li>
 							<li>Retos futuros en los que será necesario intervenir.</li>
-							<li>Por eso:</li>
-							<li>Desarrollamos investigaciones sobre el desenvolvimiento del Estado y la gestión pública con la finalidad de establecer líneas de base de gestión en las entidades.
-                            </li>
-							
-							<li>Evaluamos el desenvolvimiento de la gestión con la finalidad de identificar oportunidades de mejora: evaluar los resultados de una política o medida regulatoria implementada.</li>
-							
 						</ul>
 					</div>
 
 				</div>
-			<!--	<p class="pi">
+				<p class="pi">
 			      <a href="#" class="btn pi-btn-base">
 				       Más Info
 			      </a>
-		</p> -->
+		</p>
 			</div>
 
 			<div class="pi-col-sm-6 pi-padding-bottom-50">

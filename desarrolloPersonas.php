@@ -76,11 +76,11 @@
 					</div>
 
 				</div>
-			<!--	<p class="pi">
+				<p class="pi">
 			      <a href="#" class="btn pi-btn-base">
 				       Más Info
 			      </a>
-		</p> -->
+		</p>
 			</div>
 
 			<div class="pi-col-sm-6 pi-padding-bottom-50">

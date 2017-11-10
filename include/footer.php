@@ -19,7 +19,6 @@
 
 			<!-- Col 4 -->
 			<div class="pi-col-md-4 pi-col-sm-6 pi-padding-bottom-30">
-<<<<<<< HEAD
 				<h6 class="pi-weight-700 pi-uppercase pi-letter-spacing pi-has-border pi-has-tall-border pi-has-short-border">CONTACTO</h6>
 				<p>Sed ut perspiciatis 105 unde,amet, consectetur</p>
 				<p>+ 511 982332122</p>
@@ -30,24 +29,6 @@
 					<li><a href="#" class="pi-social-icon-youtube"><i class="icon-youtube"></i></a></li>
 					<li><a href="#" class="pi-social-icon-twitter"><i class="icon-twitter"></i></a></li>
 				</ul>
-=======
-
-				<h6 class="pi-weight-700 pi-uppercase pi-letter-spacing pi-has-border pi-has-tall-border pi-has-short-border">
-				CONTACTO
-			    </h6>
-				<p>Calle Martin Murua 150 oficina 901 distrito San Miguel.</p>
-				<p>+ 511 982332122</p>
-				<p>info@olaged.com</p>
-	
-	    <ul class="pi-social-icons pi-stacked pi-jump pi-full-height pi-bordered  pi-colored-bg clearFix">
-				<li><a href="#" class="pi-social-icon-linkedin"><i class="icon-linkedin"></i></a></li>
-				<li><a href="#" class="pi-social-icon-facebook"><i class="icon-facebook"></i></a></li>
-				<li><a href="#" class="pi-social-icon-youtube"><i class="icon-youtube"></i></a></li>
-				<li><a href="#" class="pi-social-icon-twitter"><i class="icon-twitter"></i></a></li>
-				
-				
-			</ul>
->>>>>>> d245bcb36a86a2d151f4902e4e9032da41cb1e58
 			</div>
 			<!-- End col 4 -->
 		</div>
@@ -67,13 +48,8 @@
 <!-- End copyright area -->
 <!-- End footer -->
     	
-<<<<<<< HEAD
 <a href="#" class="pi-scroll-top-arrow pi-active "></a>
 
-=======
-<a href="#" class="pi-scroll-top-arrow pi-active "> </a>
-</div>
-
 <script src="3dParty/jquery-1.11.0.min.js"></script>
 <script src="scripts/pi.helpers.js"></script>
 <script src="scripts/pi.boundManager.js"></script>
@@ -98,46 +74,6 @@
 <script src="scripts/pi.scrollTopArrow.js"></script>
 <script src="3dParty/tweetie/tweetie.min.js"></script>
 <script src="scripts/pi.init.tweetie.js"></script>
->>>>>>> d245bcb36a86a2d151f4902e4e9032da41cb1e58
-<script src="3dParty/jquery-1.11.0.min.js"></script>
-<script src="scripts/pi.helpers.js"></script>
-<script src="scripts/pi.boundManager.js"></script>
-<script src="scripts/pi.imagesLoader.js"></script>
-<script src="scripts/pi.columnFix.js"></script>
-<script src="scripts/pi.init.caption.js"></script>
-<<<<<<< HEAD
-=======
-<script src="scripts/pi.slider.js"></script>
-<script src="scripts/pi.init.slider.js"></script>
-<script src="scripts/pi.detectTransition.js"></script>
-<script src="scripts/pi.tooltip.js"></script>
-<script src="scripts/pi.init.tooltip.js"></script>
-<script src="3dParty/gauge.min.js"></script>
-<script src="scripts/pi.counter.js"></script>
-<script src="scripts/pi.init.counter.js"></script>
-<script src="scripts/pi.tab.js"></script>
-<script src="scripts/pi.init.tab.js"></script>
-<script src="scripts/pi.parallax.js"></script>
-<script src="scripts/pi.init.parallax.js"></script>
->>>>>>> d245bcb36a86a2d151f4902e4e9032da41cb1e58
-<script src="scripts/pi.init.social.js"></script>
-<script src="scripts/pi.ddMenu.js"></script>
-<script src="scripts/pi.init.removeLastElMargin.js"></script>
-<script src="scripts/pi.fixedHeader.js"></script>
-<script src="scripts/pi.mobileMenu.js"></script>
-<script src="scripts/pi.init.submitFormFooter.js"></script>
-<script src="scripts/pi.alert.js"></script>
-<script src="scripts/pi.init.formsBlurClasses.js"></script>
-<script src="scripts/pi.init.placeholder.js"></script>
-<script src="3dParty/colorbox/jquery.colorbox-min.js"></script>
-<script src="scripts/pi.init.colorbox.js"></script>
-<script src="3dParty/jquery.easing.1.3.js"></script>
-<script src="3dParty/jquery.scrollTo.min.js"></script>
-<script src="scripts/pi.init.jqueryScrollTo.js"></script>
-<script src="scripts/pi.scrollTopArrow.js"></script>
-<script src="3dParty/tweetie/tweetie.min.js"></script>
-<script src="scripts/pi.init.tweetie.js"></script>
-<<<<<<< HEAD
 <script src="3dParty/jquery-1.11.0.min.js"></script>
 <script src="scripts/pi.easings.js"></script>
 <script src="scripts/pi.helpers.js"></script>
@@ -154,8 +90,6 @@
 <script src="3dParty/gauge.min.js"></script>
 <script src="scripts/pi.counter.js"></script>
 
-=======
->>>>>>> d245bcb36a86a2d151f4902e4e9032da41cb1e58
 <script type="text/javascript">
     $(document).ready(function(){
     	
@@ -172,7 +106,6 @@
             return false;
         });
     });
-<<<<<<< HEAD
 </script>
 
 <!-- esto es para deslizar lento SCROLL DOWN-->
@@ -190,6 +123,4 @@
 	    	}
 		});
 	});
-=======
->>>>>>> d245bcb36a86a2d151f4902e4e9032da41cb1e58
 </script>
