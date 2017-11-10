@@ -13,12 +13,7 @@ section,
 summary {
   display: block;
 }
-.achi{
-  font-size: 20px;
-}
-.sube{
-  top: 80px;
-}
+
 audio,
 canvas,
 video {
@@ -6134,7 +6129,6 @@ hr.pi-divider-gap-100 {
 .pi-list-icons-ok li:after {
   content: "\e914";
   font-size: 16px;
-  text-align: justify-all;
 }
 .pi-list-icons-dot li:after {
   content: "\e817";
