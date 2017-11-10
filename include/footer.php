@@ -73,25 +73,12 @@
 <a href="#" class="pi-scroll-top-arrow pi-active "> </a>
 </div>
 
-
 <script src="3dParty/jquery-1.11.0.min.js"></script>
-<script src="scripts/pi.easings.js"></script>
 <script src="scripts/pi.helpers.js"></script>
 <script src="scripts/pi.boundManager.js"></script>
-<script src="3dParty/inview.js"></script>
 <script src="scripts/pi.imagesLoader.js"></script>
 <script src="scripts/pi.columnFix.js"></script>
 <script src="scripts/pi.init.caption.js"></script>
-<script src="scripts/pi.slider.js"></script>
-<script src="scripts/pi.init.slider.js"></script>
-<script src="3dParty/gauge.min.js"></script>
-<script src="scripts/pi.counter.js"></script>
-<script src="scripts/pi.init.counter.js"></script>
-<script src="scripts/pi.parallax.js"></script>
-<script src="scripts/pi.init.parallax.js"></script>
-<script src="3dParty/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-<script src="3dParty/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-<script src="scripts/pi.init.revolutionSlider.js"></script>
 <script src="scripts/pi.init.social.js"></script>
 <script src="scripts/pi.ddMenu.js"></script>
 <script src="scripts/pi.init.removeLastElMargin.js"></script>
@@ -110,10 +97,6 @@
 <script src="scripts/pi.scrollTopArrow.js"></script>
 <script src="3dParty/tweetie/tweetie.min.js"></script>
 <script src="scripts/pi.init.tweetie.js"></script>
-<script src="3dParty/jquery.js"></script>
-<script src="3dParty/jquery.smooth-scroll.js"></script>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-
 <script type="text/javascript">
     $(document).ready(function(){
   
@@ -131,34 +114,4 @@
         });
   
     });
-</script>
-
-<!-- esto es para deslizar lento SCROLL DOWN-->
-<script>
-	$(function(){
-
-     $('a[href*=#]').click(function() {
-
-     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-         && location.hostname == this.hostname) {
-
-             var $target = $(this.hash);
-
-             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
-
-             if ($target.length) {
-
-                 var targetOffset = $target.offset().top;
-
-                 $('html,body').animate({scrollTop: targetOffset}, 1000);
-
-                 return false;
-
-            }
-
-       }
-
-   });
-
-});
 </script>
