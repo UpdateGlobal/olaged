@@ -30,6 +30,7 @@
 			</div>
 			<!-- End header row -->
 
+<<<<<<< HEAD
 			<div class="pi-header-row-sticky-w">
 				<!-- Header row -->
 				<div class="pi-section-w pi-section-header-w pi-section-white pi-section-header-lg-w pi-header-row-sticky pi-shadow-bottom">
@@ -109,3 +110,29 @@
 				</div>
 				<!-- End header row -->
 			</div>
+=======
+
+		</li>
+		
+		
+		<li class="pi-has-dropdown" ><a href="capacitacion.php"><span>Capacitación</span></a>
+			<ul class="pi-submenu">
+			<li><a href="curso-contratacion-publica.php"><span>Curso de Contratación Pública</span></a></li>
+			</ul>
+		</li>
+		
+		
+		<li><a href="desarrolloPersonas.php"><span>Desarrollo de Personas</span></a></li>
+		
+	</ul>
+		
+</li>
+<!-- <li class="pi"><a href="#actividades"><span>Actividades</span></a></li> -->
+<li class="pi"><a href="blog.php"><span>Noticias</span></a>
+	
+</li>
+<li class="pi"><a href="contacto.php"><span>Contacto</span></a></li>
+
+</ul>
+</div>
+>>>>>>> master

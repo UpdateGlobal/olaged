@@ -56,7 +56,7 @@
 			PROGRAMA
 		</h5>
 <p>PRIMER DIA: SABADO 11 DE NOVIEMBRE  (9:00 am – 1:00 pm)
-	<ul class="pi-list-with-icons pi-list-icons-minus">
+	
 					<li>Expositora: Dra. María Elena Lazo</li>
 Ex Vocal del Tribunal de Contrataciones del Estado, Jefa de Asesoría Jurídica de SERNANP</p>
 
@@ -153,13 +153,13 @@ FASE DE SELECCIÓN
 <li>Contratos complementarios.</li>
 <strong>SOLUCION DE CONTROVERSIAS</strong>
 <li>Apelación</li>
-<li>Arbitraje</li></p><br><br></ul>
+<li>Arbitraje</li></p><br><br>
 <h5 class="pi-has-border pi-has-tall-border pi-has-base-border">
 			MATERIALES COMPLEMENTARIOS
 		</h5>
 <ul class="pi-list-with-icons pi-list-icons-plus">
-		<li><a href="https://drive.google.com/file/d/1BD3-REkq65ILUAPUbH9OFLo7IrdTWNGH/view">MATERIAL 1</a></li>
-		<li><a href="https://drive.google.com/open?id=1AFVKL2FQ8v9MiENWRJVJ0RcvEJnJ8_wm">MATERIAL 2</a></li>
+		<li><a href="https://drive.google.com/file/d/1BD3-REkq65ILUAPUbH9OFLo7IrdTWNGH/view">LEY DE CONTRATACIONES DEL ESTADO</a></li>
+		<li><a href="https://drive.google.com/open?id=1AFVKL2FQ8v9MiENWRJVJ0RcvEJnJ8_wm">REGLAMENTO DE LA LEY CONTRATACIONES DEL ESTADO</a></li>
 	</ul>
 	</div>
 	
