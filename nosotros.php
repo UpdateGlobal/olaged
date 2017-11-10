@@ -161,6 +161,7 @@
 					<li class="pi-active"><a href="#history"><i class="icon-book-open"></i>Misión</a></li>
 					<li><a href="#vision"><i class="icon-eye"></i>Visión</a></li>
 					<li><a href="#phylosophy"><i class="icon-flash"></i>Valores</a></li>
+					<li><a href="#filo"><i class="icon-flash"></i>Filosofia</a></li>
 				</ul>
 				<!-- End tabs -->
 
@@ -186,7 +187,7 @@
 					<!-- Tab content item -->
 					<div class="pi-tab-pane" id="phylosophy">
 						<p>
-							<span class="pi-dropcap">C</span>onsideramos fundamental trabajar con valores éticos que guíen su actividad cotidiana, por eso, nos comprometemos a actuar con: Responsabilidad personal y social: reconocer, aceptar y asumir las consecuencias de los actos en la dimensión personal y social son fundamentales para lograr los objetivos de desarrollo institucional que nos proponemos. 
+							<span class="pi-dropcap">d</span>onsideramos fundamental trabajar con valores éticos que guíen su actividad cotidiana, por eso, nos comprometemos a actuar con: Responsabilidad personal y social: reconocer, aceptar y asumir las consecuencias de los actos en la dimensión personal y social son fundamentales para lograr los objetivos de desarrollo institucional que nos proponemos. 
 
 							<ul>
 								<li>Respeto: tener consideración por el otro, aceptando las diferencias, nos permite incorporar políticas públicas inclusivas.</li>
@@ -199,7 +200,17 @@
 
 				</div>
 				<!-- End tabs content -->
-
+                    <div class="pi-tab-pane" id="filo">
+						<p>
+							<span class="pi-dropcap">f</span>
+							Queremos combinar la experiencia y el conocimiento académico, para lograr las mejores prácticas en la gestión y políticas públicas.
+Para ello, en cada una de las líneas de acción:
+Convocamos a profesionales competentes, con amplia experiencia y comprometidos con el desarrollo de las políticas públicas. 
+Conformamos equipos multidisciplinarios, que desde su respectiva disciplina, aporten soluciones que se traduzcan en resultados de desarrollo.
+Investigamos las experiencias de éxito de la región, para adaptarlas a la realidad y lograr mejores resultados para el ciudadano.
+Promovemos la reflexión para la mejora continua: ¿qué queremos? ¿para qué lo hacemos?, ¿cómo lo hacemos?, ¿cuáles son los resultados?, ¿hay forma de hacerlo mejor? 
+						</p>
+					</div>
 			</div>
 			<div class="pi-col-sm-6">
 
