@@ -21,7 +21,6 @@
 	<link rel="stylesheet" type="text/css" href="css/alert-boxes.css"/>
 	<link rel="stylesheet" type="text/css" href="css/animations.css"/>
 	<link rel="stylesheet" type="text/css" href="3dParty/colorbox/colorbox.css"/>
-	<link href="css/bootstrap.css" rel="stylesheet">
 
 	<!--Fonts-->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;subset=latin,cyrillic'
@@ -159,9 +158,14 @@
 			<div class="pi-col-sm-6">
               <ul class="pi-tabs-navigation pi-tabs-navigation-justified pi-tabs-navigation-transparent pi-responsive-sm" id="myTabs1">
 					<li class="pi-active"><a href="#history"><i class="icon-book-open"></i>Misión</a></li>
+<<<<<<< HEAD
 					<li><a href="#vision"><i class="icon-eye"></i>Visión</a></li>
 					<li><a href="#phylosophy"><i class="icon-flash"></i>Valores</a></li>
 					<li><a href="#filo"><i class="icon-flash"></i>Filosofia</a></li>
+=======
+					<li><a href="nosotros.php#vision"><i class="icon-eye"></i>Visión</a></li>
+					<li><a href="nosotros.php#phylosophy"><i class="icon-flash"></i>Valores</a></li>
+>>>>>>> master
 				</ul>
 				<!-- End tabs -->
 
