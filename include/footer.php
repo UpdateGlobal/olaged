@@ -33,9 +33,9 @@
 				<h6 class="pi-weight-700 pi-uppercase pi-letter-spacing pi-has-border pi-has-tall-border pi-has-short-border">
 				CONTACTO
 			    </h6>
-				<p>Sed ut perspiciatis 105 unde,amet, consectetur</p>
+				<p>Calle Martin Murua 150 oficina 901 distrito San Miguel.</p>
 				<p>+ 511 982332122</p>
-				<p>amet,@consectetur.com</p>
+				<p>info@olaged.com</p>
 	
 	    <ul class="pi-social-icons pi-stacked pi-jump pi-full-height pi-bordered  pi-colored-bg clearFix">
 				<li><a href="#" class="pi-social-icon-linkedin"><i class="icon-linkedin"></i></a></li>

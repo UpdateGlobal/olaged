@@ -193,16 +193,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="form-group pi-padding-bottom-10">
-						<label for="exampleInputSelect">Cantidades</label>
-						<select class="form-control form-control-budjet" name="cantidad" id="exampleInputSelect">
-							<option>$1000</option>
-							<option>$1500</option>
-							<option>$3000</option>
-							<option>$5000</option>
-							<option>$10000</option>
-						</select>
-					</div>
+					
 					<div class="form-group pi-padding-bottom-10">
 						<label for="exampleInputMessage1">Mensaje</label>
 
