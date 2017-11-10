@@ -4,12 +4,15 @@
 <head>
 	<?php include("include/head.php"); ?>
 </head>
+<?php $num=""; ?>
 <body>
 	<div id="pi-all">
 		<?php $menu=""; include("include/navegacion.php") ?>
 	</div>
 	<!-- End header -->
-	<div id="page"><!-- - - - - - - - - - SECTION - - - - - - - - - -->
+
+	<div id="page">
+		<!-- - - - - - - - - - SECTION - - - - - - - - - -->
 		<div class="tp-banner-container">
 			<div class="tp-banner pi-revolution-slider" >
 				<ul>
@@ -91,6 +94,7 @@
 				</ul>
 			</div>
 			<!-- End portfolio item -->
+
 			<!-- Portfolio item -->
 			<div class="Lifestyle Creation pi-gallery-item pi-padding-bottom-40 isotope-item">
 				<div class="pi-img-w pi-img-round-corners pi-img-shadow">
@@ -105,6 +109,7 @@
 				</ul>
 			</div>
 			<!-- End portfolio item -->
+
 			<!-- Portfolio item -->
 			<div class="Lifestyle Creation pi-gallery-item pi-padding-bottom-40 isotope-item">
 				<div class="pi-img-w pi-img-round-corners pi-img-shadow">
@@ -118,10 +123,7 @@
 					<strong><a href="desarrolloPersonas.php">Más Información</a></strong>
 				</ul>
 			</div>
-			<!-- End portfolio item -->
-
-
-			
+			<!-- End portfolio item -->	
 		</div>
 		<!-- End portfolio gallery -->
 	
@@ -161,8 +163,6 @@
 
 <div id="actividades" class="pi-section-w pi-section-white adelanto">
 	<div class="pi-section pi-padding-top-90 pi-padding-bottom-30">
-		
-		
 		<div class="pi-row">
 
 			<div class="pi-col-sm-6 pi-padding-bottom-50">
@@ -240,40 +240,42 @@
 			<h3 class="pi-weight-700 pi-uppercase pi-letter-spacing pi-has-border pi-has-tall-border pi-has-short-border">EXPERIENCIA CON <span class="pi-text-base pi-weight-800 pi-tooltip pi-tooltip-base">CLIENTES FELICES</span></h3>
 		</div>
 		<p class="lead-16 pi-margin-bottom-40 pi-text-center pi-text-grey">Excepteur sint occaecat cupidatat non proident <br>sunt in culpa qui officia deserunt.</p>
-	</div>
-			
-	<!-- Slider -->
-	<div class="pi-slider-wrapper pi-slider-arrows-inside pi-slider-show-arrow-hover">
-		<div class="pi-slider pi-slider-animate-opacity">
-			<!-- Slide -->
-			<div class="pi-slide">
-				<!-- Logos gallery -->
-				<div class="pi-row pi-liquid-col-lg-5 pi-gallery">
-					<?php
-                    	$consultarCarrusel = "SELECT * FROM carrusel ORDER BY orden";
-                    	$resultadoCarrusel = mysqli_query($enlaces,$consultarCarrusel) or die('Consulta fallida: ' . mysqli_error($enlaces));
-                    	while($filaCar = mysqli_fetch_array($resultadoCarrusel)){
-                    		$xCodigo    = $filaCar['cod_carrusel'];
-                    		$xImagen    = $filaCar['imagen'];
-                    ?>
-					<!-- Logo -->
-					<div class="pi-gallery-item">
-						<div class="pi-img-w pi-img-opacity-50 pi-img-grayscale-hover">
-							<a href="#"><img src="cms/assets/img/carrusel/<?php echo $xImagen; ?>" alt="" /></a>
+		<!-- Slider -->
+		<div class="pi-slider-wrapper pi-slider-arrows-inside pi-slider-show-arrow-hover">
+			<div class="pi-slider pi-slider-animate-opacity">
+				<!-- Slide -->
+				<div class="pi-slide">
+					<!-- Logos gallery -->
+					<div class="pi-row pi-liquid-col-lg-5 pi-gallery">
+						<?php
+	                    	$consultarCarrusel = "SELECT * FROM carrusel ORDER BY orden";
+	                    	$resultadoCarrusel = mysqli_query($enlaces,$consultarCarrusel) or die('Consulta fallida: ' . mysqli_error($enlaces));
+	                    	while($filaCar = mysqli_fetch_array($resultadoCarrusel)){
+	                    		$xCodigo    = $filaCar['cod_carrusel'];
+	                    		$xImagen    = $filaCar['imagen'];
+	                    		$num++;
+	                    ?>
+						<!-- Logo -->
+						<div class="pi-gallery-item">
+							<div class="pi-img-w pi-img-opacity-50 pi-img-grayscale-hover">
+								<a href="#"><img src="cms/assets/img/carrusel/<?php echo $xImagen; ?>" alt="" /></a>
+							</div>
 						</div>
-					</div>
-					<?php
-						}
-                        mysqli_free_result($resultadoCarrusel);
-					?>
-					<!-- End logo -->
-				</div>	
+						<?php if($num % 5 === 0){ print "</div></div>
+						<div class='pi-slide'>
+						<div class='pi-row pi-liquid-col-lg-5 pi-gallery'>"; } ?>
+						<?php
+							}
+	                        mysqli_free_result($resultadoCarrusel);
+						?>
+						<!-- End logo -->
+					</div>	
+				</div>
+				<!-- End slide -->
 			</div>
-			<!-- End slide -->
-
 		</div>
+		<!-- End slider -->
 	</div>
-	<!-- End slider -->
 </div>
 <!-- - - - - - - - - - END SECTION - - - - - - - - - -->
 
@@ -318,8 +320,8 @@
 			</div>
 			<!-- End col 6 -->
 			
-			<!-- Col 6 -->
-			<div class="pi-col-sm-6 pi-padding-bottom-30">
+				<!-- Col 6 -->
+				<div class="pi-col-sm-6 pi-padding-bottom-30">
 
 				<!-- Post item -->
 				<div class="pi-img-w pi-img-round-corners pi-img-left pi-img-shadow" style="width: 170px;">
@@ -346,13 +348,14 @@
 				</p>
 				<!-- End post item -->
 				
-			</div>
+				</div>
 			<!-- End col 6 -->
-		</div>
+			</div>
 		<!-- End row -->			
+		</div>
 	</div>
-</div>
 	<!-- - - - - - - - - - END SECTION - - - - - - - - - -->
 	<?php include("include/footer.php"); ?>
+</div>
 </body>
 </html>
